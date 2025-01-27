@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="509422ae831b1210042298a6feaad397" sys_domain="global" table="x_1593181_shark_0_course" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 20:26:43</sys_created_on>
+            <sys_id>e09462ae831b1210042298a6feaad318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1593181_shark_0_course" sys_domain="global" view="Default view">509422ae831b1210042298a6feaad397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 20:26:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>international_description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 20:26:43</sys_created_on>
+            <sys_id>689462ae831b1210042298a6feaad318</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1593181_shark_0_course" sys_domain="global" view="Default view">509422ae831b1210042298a6feaad397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 20:26:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1593181_shark_0_course</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-27 20:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>509422ae831b1210042298a6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1593181_shark_0_course</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+            <sys_update_name>sys_ui_section_509422ae831b1210042298a6feaad397</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-27 20:26:43</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</application>
+        <file_path/>
+        <instance_id>e1b50610dbda3d18f697684e13961947</instance_id>
+        <instance_name>dev199015</instance_name>
+        <name>sys_ui_section_509422ae831b1210042298a6feaad397</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="509422ae831b1210042298a6feaad397" sys_domain="global" table="x_1593181_shark_0_course" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 20:26:43</sys_created_on><sys_id>e09462ae831b1210042298a6feaad318</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1593181_shark_0_course" sys_domain="global" view="Default view">509422ae831b1210042298a6feaad397</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 20:26:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>international_description</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 20:26:43</sys_created_on><sys_id>689462ae831b1210042298a6feaad318</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1593181_shark_0_course" sys_domain="global" view="Default view">509422ae831b1210042298a6feaad397</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 20:26:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1593181_shark_0_course</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 20:26:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>509422ae831b1210042298a6feaad397</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1593181_shark_0_course</sys_name><sys_overrides/><sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package><sys_policy/><sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope><sys_update_name>sys_ui_section_509422ae831b1210042298a6feaad397</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 20:26:43</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>607850072</payload_hash>
+        <record_name>Course</record_name>
+        <reverted_from/>
+        <source>d3d496a683d71210042298a6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:26:43</sys_created_on>
+        <sys_id>ec9462ae831b1210042298a6feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a971ed9d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 20:26:43</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>649462ae411b1210dfed9a163b83d626</update_guid>
+        <update_guid_history>649462ae411b1210dfed9a163b83d626:607850072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:27:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>a117a08ceedb4f6086e66c0cf0094390</sys_id>
+        <sys_metadata>509422ae831b1210042298a6feaad397</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_parent display_value="Shark 0 Course">e53f4a6283d71210042298a6feaad3bb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_scope_delete display_value="">0a2ce786428d4704a6838f220593d710</sys_scope_delete>
+        <sys_update_name>sys_ui_section_509422ae831b1210042298a6feaad397</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_509422ae831b1210042298a6feaad397">ec9462ae831b1210042298a6feaad326</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 20:27:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
