@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6ff296a683d71210042298a6feaad30c" extends="task" label="Enrollment" max_length="40" name="x_1593181_shark_0_enrollment" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Student" max_length="32" name="student" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Training" max_length="32" name="training" reference="x_1593181_shark_0_training" type="reference"/>
     </element>
 </database>
