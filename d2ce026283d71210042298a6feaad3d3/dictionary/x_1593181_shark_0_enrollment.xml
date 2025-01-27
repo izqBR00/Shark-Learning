@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6ff296a683d71210042298a6feaad30c" extends="task" label="Enrollment" max_length="40" name="x_1593181_shark_0_enrollment" type="collection">
+        <element label="Training" max_length="32" name="training" reference="x_1593181_shark_0_training" type="reference"/>
+    </element>
+</database>

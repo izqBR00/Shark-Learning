@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e53f4a6283d71210042298a6feaad3bb" label="Course" max_length="40" name="x_1593181_shark_0_course" type="collection">
+        <element label="International Description" max_length="4000" name="international_description" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>
