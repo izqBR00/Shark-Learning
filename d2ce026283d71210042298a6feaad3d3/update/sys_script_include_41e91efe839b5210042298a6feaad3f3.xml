@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1593181_shark_0.SharkLearningGlideAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>SharkLearningGlideAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var SharkLearningGlideAjax = Class.create();
+SharkLearningGlideAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	blockDuplicateTrainings: function(){
+		var course = this.getParameter("sysparm_course");
+		var date = this.getParameter("sysparm_date");
+
+		var grTraining = new GlideRecord("x_1593181_shark_0_training");
+		grTraining.addQuery("date", date);
+		grTraining.addQuery("course", course);
+		grTraining.query();
+
+		return grTraining.hasNext() ? "true" : "false";
+	},
+
+	singleEnroll: function(){
+		var training = this.getParameter("sysparm_training");
+		var date = this.getParameter("sysparm_date");
+
+		var grEnroll = new GlideRecord("x_1593181_shark_0_enrollment");
+		grEnroll.addEncodedQuery("state!=4^studentDYNAMIC90d1921e5f510100a9ad2572f2b477fe");
+		grEnroll.addQuery("training", training);
+		grEnroll.addQuery("date", date);
+		grEnroll.query();
+
+		
+	},
+
+    type: 'SharkLearningGlideAjax'
+
+	
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 14:35:18</sys_created_on>
+        <sys_id>41e91efe839b5210042298a6feaad3f3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SharkLearningGlideAjax</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>sys_script_include_41e91efe839b5210042298a6feaad3f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:36:33</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>41e91efe839b5210042298a6feaad3f3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 14:35:18</sys_created_on>
+        <sys_id>62bdd23283db5210042298a6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 14:35:18</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

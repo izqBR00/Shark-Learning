@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Enroll in a Training">8d3722a2835b1210042298a6feaad37e</catalog_item>
+        <catalog_variable>IO:4a6766a2835b1210042298a6feaad3a2</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:07:27</sys_created_on>
+        <sys_id>263ecbfe839f5210042298a6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_263ecbfe839f5210042298a6feaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:07:27</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory Fields">7a0ec7fe839f5210042298a6feaad3fb</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>training</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=263ecbfe839f5210042298a6feaad391"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</application>
+        <file_path/>
+        <instance_id>e1b50610dbda3d18f697684e13961947</instance_id>
+        <instance_name>dev199015</instance_name>
+        <name>catalog_ui_policy_action_263ecbfe839f5210042298a6feaad391</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Enroll in a Training">8d3722a2835b1210042298a6feaad37e</catalog_item><catalog_variable>IO:4a6766a2835b1210042298a6feaad3a2</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-28 18:07:27</sys_created_on><sys_id>263ecbfe839f5210042298a6feaad391</sys_id><sys_mod_count>0</sys_mod_count><sys_name>training</sys_name><sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package><sys_policy/><sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope><sys_update_name>catalog_ui_policy_action_263ecbfe839f5210042298a6feaad391</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-28 18:07:27</sys_updated_on><table/><ui_policy display_value="Mandatory Fields">7a0ec7fe839f5210042298a6feaad3fb</ui_policy><value/><value_action>ignore</value_action><variable>training</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=263ecbfe839f5210042298a6feaad391"/></record_update>]]></payload>
+        <payload_hash>-1788924956</payload_hash>
+        <record_name>training</record_name>
+        <reverted_from/>
+        <source>d3d496a683d71210042298a6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:07:27</sys_created_on>
+        <sys_id>ca4ecbfe839f5210042298a6feaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ae18c7c50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:07:27</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>ce4ecbfe729f52109a27e7ee42bbfb9d</update_guid>
+        <update_guid_history>ce4ecbfe729f52109a27e7ee42bbfb9d:-1788924956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="training">6cae833283df5210042298a6feaad3ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:08:59</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>56d17077ca2246d0b5c75de9e225c981</sys_id>
+        <sys_metadata>263ecbfe839f5210042298a6feaad391</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>training</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_scope_delete display_value="">0a2ce786428d4704a6838f220593d710</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_263ecbfe839f5210042298a6feaad391</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_263ecbfe839f5210042298a6feaad391">ca4ecbfe839f5210042298a6feaad39e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:08:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Ask For a Refund">d4daf91083979210042298a6feaad34d</catalog_item>
+        <catalog_variable>IO:f9edf51483979210042298a6feaad37d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 17:57:05</sys_created_on>
+        <sys_id>7cdb0b3e839f5210042298a6feaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7cdb0b3e839f5210042298a6feaad34b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 17:57:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="ReadOnly Fields">67bb873e839f5210042298a6feaad318</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>date</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=7cdb0b3e839f5210042298a6feaad34b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</application>
+        <file_path/>
+        <instance_id>e1b50610dbda3d18f697684e13961947</instance_id>
+        <instance_name>dev199015</instance_name>
+        <name>catalog_ui_policy_action_7cdb0b3e839f5210042298a6feaad34b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Ask For a Refund">d4daf91083979210042298a6feaad34d</catalog_item><catalog_variable>IO:f9edf51483979210042298a6feaad37d</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-28 17:57:05</sys_created_on><sys_id>7cdb0b3e839f5210042298a6feaad34b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>date</sys_name><sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package><sys_policy/><sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope><sys_update_name>catalog_ui_policy_action_7cdb0b3e839f5210042298a6feaad34b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-28 17:57:05</sys_updated_on><table/><ui_policy display_value="ReadOnly Fields">67bb873e839f5210042298a6feaad318</ui_policy><value/><value_action>ignore</value_action><variable>date</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=7cdb0b3e839f5210042298a6feaad34b"/></record_update>]]></payload>
+        <payload_hash>1839135956</payload_hash>
+        <record_name>date</record_name>
+        <reverted_from/>
+        <source>d3d496a683d71210042298a6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 17:57:05</sys_created_on>
+        <sys_id>1aeb4b3a839f5210042298a6feaad398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ae0f4abe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 17:57:05</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1eeb4b3abc9f5210aebb0097ee19cf97</update_guid>
+        <update_guid_history>1eeb4b3abc9f5210aebb0097ee19cf97:1839135956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="date">564c433e839f5210042298a6feaad3a5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 17:58:43</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>17d6c682eb0342119372131dcd796a21</sys_id>
+        <sys_metadata>7cdb0b3e839f5210042298a6feaad34b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_scope_delete display_value="">0a2ce786428d4704a6838f220593d710</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_7cdb0b3e839f5210042298a6feaad34b</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_7cdb0b3e839f5210042298a6feaad34b">1aeb4b3a839f5210042298a6feaad398</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 17:58:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

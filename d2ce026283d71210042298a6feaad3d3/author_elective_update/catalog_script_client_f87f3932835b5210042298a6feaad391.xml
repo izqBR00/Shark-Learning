@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Ask For a Refund">d4daf91083979210042298a6feaad34d</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Change Submit Button Text</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+	var x = top.document.getElementsByClassName('btn btn-primary btn-block ng-binding ng-scope');
+    if (x && x[0]) {
+        x[0].innerText = "Enroll"; // Change Submit button text
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 12:24:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f87f3932835b5210042298a6feaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Submit Button Text</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>catalog_script_client_f87f3932835b5210042298a6feaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:24:30</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="DELETE">
+        <id>f87f3932835b5210042298a6feaad391</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 12:24:30</sys_created_on>
+        <sys_id>e6cf79fe831b5210042298a6feaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:24:30</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</application>
+        <file_path/>
+        <instance_id>e1b50610dbda3d18f697684e13961947</instance_id>
+        <instance_name>dev199015</instance_name>
+        <name>catalog_script_client_f87f3932835b5210042298a6feaad391</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Ask For a Refund"&gt;d4daf91083979210042298a6feaad34d&lt;/cat_item&gt;&lt;cat_variable/&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Change Submit Button Text&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	var x = top.document.getElementsByClassName('btn btn-primary btn-block ng-binding ng-scope');
+    if (x &amp;&amp; x[0]) {
+        x[0].innerText = "Enroll"; // Change Submit button text
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 12:24:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f87f3932835b5210042298a6feaad391&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Change Submit Button Text&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Shark Learning" source="x_1593181_shark_0"&gt;d2ce026283d71210042298a6feaad3d3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Shark Learning"&gt;d2ce026283d71210042298a6feaad3d3&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_f87f3932835b5210042298a6feaad391&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 12:24:30&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;f87f3932835b5210042298a6feaad391&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 12:24:30&lt;/sys_created_on&gt;&lt;sys_id&gt;e6cf79fe831b5210042298a6feaad34e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 12:24:30&lt;/sys_updated_on&gt;&lt;table&gt;catalog_script_client&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>8629691</payload_hash>
+        <record_name>Change Submit Button Text</record_name>
+        <reverted_from/>
+        <source>d3d496a683d71210042298a6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 12:24:31</sys_created_on>
+        <sys_id>6ecffd32835b5210042298a6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194acded01c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:24:31</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>62cffd327f5b521036fa465daba9d908</update_guid>
+        <update_guid_history>62cffd327f5b521036fa465daba9d908:8629691</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Change Submit Button Text">25d0c272835b5210042298a6feaad34b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 12:29:05</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>1896b0773ca24fe6b9b793c31a9d6f81</sys_id>
+        <sys_metadata>f87f3932835b5210042298a6feaad391</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Change Submit Button Text</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_scope_delete display_value="">0a2ce786428d4704a6838f220593d710</sys_scope_delete>
+        <sys_update_name>catalog_script_client_f87f3932835b5210042298a6feaad391</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_f87f3932835b5210042298a6feaad391">6ecffd32835b5210042298a6feaad308</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 12:29:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

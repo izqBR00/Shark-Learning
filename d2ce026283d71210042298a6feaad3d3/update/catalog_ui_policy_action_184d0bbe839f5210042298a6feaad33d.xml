@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Enroll in a Training">8d3722a2835b1210042298a6feaad37e</catalog_item>
+        <catalog_variable>IO:4b580376839f5210042298a6feaad36e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:03:18</sys_created_on>
+        <sys_id>184d0bbe839f5210042298a6feaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_184d0bbe839f5210042298a6feaad33d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:03:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="ReadOnly Fields">866c077e839f5210042298a6feaad300</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>date</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=184d0bbe839f5210042298a6feaad33d"/>
+</record_update>
