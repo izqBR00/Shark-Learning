@@ -15,7 +15,7 @@
       return;
    }
 
-	var ga = new GlideAjax("BlockDuplicateTrainings");
+	var ga = new GlideAjax("SharkLearningGlideAjax");
 	ga.addParam("sysparm_name", "blockDuplicateTrainings");
 	ga.addParam("sysparm_course", g_form.getValue("course"));
 	ga.addParam("sysparm_date", g_form.getValue("date"));
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>387f8e36839b5210042298a6feaad3bf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Block Duplicate Trainings</sys_name>
         <sys_overrides/>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name>sys_script_client_387f8e36839b5210042298a6feaad3bf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 14:57:43</sys_updated_on>
+        <sys_updated_on>2025-01-28 20:05:12</sys_updated_on>
         <table>x_1593181_shark_0_training</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
