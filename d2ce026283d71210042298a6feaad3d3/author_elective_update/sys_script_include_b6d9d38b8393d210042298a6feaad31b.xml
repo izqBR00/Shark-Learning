@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1593181_shark_0.Teste</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>Teste</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var Teste = Class.create();
+Teste.prototype = {
+    initialize: function() {
+    },
+
+	teste: function() {
+		return "available_seats!=0^EQ";
+	},
+
+    type: 'Teste'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 13:37:10</sys_created_on>
+        <sys_id>b6d9d38b8393d210042298a6feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teste</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>sys_script_include_b6d9d38b8393d210042298a6feaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 13:37:10</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>b6d9d38b8393d210042298a6feaad31b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 13:37:10</sys_created_on>
+        <sys_id>f40ad38b8393d210042298a6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 13:37:10</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</application>
+        <file_path/>
+        <instance_id>e1b50610dbda3d18f697684e13961947</instance_id>
+        <instance_name>dev199015</instance_name>
+        <name>sys_script_include_b6d9d38b8393d210042298a6feaad31b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1593181_shark_0.Teste&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;Teste&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var Teste = Class.create();
+Teste.prototype = {
+    initialize: function() {
+    },
+
+	teste: function() {
+		return "available_seats!=0^EQ";
+	},
+
+    type: 'Teste'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-29 13:37:10&lt;/sys_created_on&gt;&lt;sys_id&gt;b6d9d38b8393d210042298a6feaad31b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Teste&lt;/sys_name&gt;&lt;sys_package display_value="Shark Learning" source="x_1593181_shark_0"&gt;d2ce026283d71210042298a6feaad3d3&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Shark Learning"&gt;d2ce026283d71210042298a6feaad3d3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b6d9d38b8393d210042298a6feaad31b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-29 13:37:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;b6d9d38b8393d210042298a6feaad31b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-29 13:37:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f40ad38b8393d210042298a6feaad31f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-29 13:37:10&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1117358417</payload_hash>
+        <record_name>Teste</record_name>
+        <reverted_from/>
+        <source>d3d496a683d71210042298a6feaad3f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 13:37:11</sys_created_on>
+        <sys_id>780a5fcb8393d210042298a6feaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b247b4100000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 13:37:11</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7c0a5fcb5e93d210b8428fe39eb26567</update_guid>
+        <update_guid_history>7c0a5fcb5e93d210b8428fe39eb26567:1117358417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 14:29:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4a3e2bb289194c589ade6f204044ca31</sys_id>
+        <sys_metadata>b6d9d38b8393d210042298a6feaad31b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teste</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_scope_delete display_value="">0a2ce786428d4704a6838f220593d710</sys_scope_delete>
+        <sys_update_name>sys_script_include_b6d9d38b8393d210042298a6feaad31b</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b6d9d38b8393d210042298a6feaad31b">780a5fcb8393d210042298a6feaad368</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 14:29:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
