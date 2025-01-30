@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1593181_shark_0.translate_x-rapidapi-key</name>
+        <read_roles/>
+        <suffix>translate_x-rapidapi-key</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 16:33:58</sys_created_on>
+        <sys_id>f3fb4563839f1610042298a6feaad3d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1593181_shark_0.translate_x-rapidapi-key</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>sys_properties_f3fb4563839f1610042298a6feaad3d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 17:06:07</sys_updated_on>
+        <type>string</type>
+        <value>9852b8d26bmsh6a263feaf9a6285p130494jsn839d40d768fb</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=f3fb4563839f1610042298a6feaad3d1"/>
+</record_update>
