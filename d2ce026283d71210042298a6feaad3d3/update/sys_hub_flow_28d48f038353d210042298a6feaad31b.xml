@@ -15,10 +15,10 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>training_fill</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Training Record","reference":"x_1593181_shark_0_training","reference_display":"Training","type":"reference","base_type":"reference","usedInstances":{"c365d83d-b592-48a6-83dd-30d64335b394":["record"]},"attributes":{}},{"name":"Created_1.current.seats","label":"Trigger - Record Created➛Training Record➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"c365d83d-b592-48a6-83dd-30d64335b394":["available_seats"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.seats","label":"Trigger - Record Created➛Training Record➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"c365d83d-b592-48a6-83dd-30d64335b394":["available_seats"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Training Record","reference":"x_1593181_shark_0_training","reference_display":"Training","type":"reference","base_type":"reference","usedInstances":{"c365d83d-b592-48a6-83dd-30d64335b394":["record"]},"attributes":{}}]</label_cache>
         <master_snapshot>778587838353d210042298a6feaad300</master_snapshot>
         <master_snapshot_digest/>
-        <name>Training Fill</name>
+        <name>Fill Available Seats</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -28,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -36,15 +36,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>28d48f038353d210042298a6feaad31b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Training Fill</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Fill Available Seats</sys_name>
         <sys_overrides/>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name>sys_hub_flow_28d48f038353d210042298a6feaad31b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:07:49</sys_updated_on>
+        <sys_updated_on>2025-01-30 16:09:19</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -145,7 +145,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Training Fill">28d48f038353d210042298a6feaad31b</model>
+        <model display_value="Fill Available Seats">28d48f038353d210042298a6feaad31b</model>
         <model_id>28d48f038353d210042298a6feaad31b</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_28d48f038353d210042298a6feaad31b</name>
@@ -229,7 +229,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Training Fill">28d48f038353d210042298a6feaad31b</model>
+        <model display_value="Fill Available Seats">28d48f038353d210042298a6feaad31b</model>
         <model_id>28d48f038353d210042298a6feaad31b</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_28d48f038353d210042298a6feaad31b</name>
@@ -279,18 +279,18 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Training Fill">28d48f038353d210042298a6feaad31b</flow>
+        <flow display_value="Fill Available Seats">28d48f038353d210042298a6feaad31b</flow>
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:07:48</sys_created_on>
         <sys_id>738547838353d210042298a6feaad3dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:07:48</sys_updated_on>
+        <sys_updated_on>2025-01-30 16:09:19</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
-        <trigger_inputs>H4sIAAAAAAAA/9VY2W7jNhT9FUFPLeACWuzYztvUyaABMklhe1oUQSBQEmkTQ1OuSClxB/n3XmqxZC2O1ywvAUxSvOcennsumYefOkMuZvqlPkUuw3pHp1zikCM2XS0xDEs17HC0UHMLxH0kg3ClX8owwh09CH0c6pdmR48Ri/BkJW58+AiWJl9kn+vZNPx+dsze0DYHpiPmKPzhGI4MEeWUz2CRT8WSodVf2dppMePNKfNDzPXLh8eOvkQh7C5V5J+VKQmonY2UtLsUO1XAPOKhoYUNzzZtyzIMa9A13QvbNS3fRtgwYF2Vj0oisoGWggX8LDH3MYQiiAncwFiIkX/P2Wq9Yg6Ep5Qt0LOg/8HuA0OtIxiy8nA6t/7pZCSlw948oB6+X0oa8HQkxZlOBixa8LsUv6IXExQxmdMLI5GA/fBSQVYgMkRkMg+exnnAr5Qn2WWTLPAQW/9CUobUjSQW6igIZXAoTsqNCKIwQT++Ht2Pr5y/v0xHf1yPnfH1ZDq+GU2vr/SXJC/n30jtmCLMsDhpOi9rTXylmKkDzBgXXkiX8osnaYwzMC+dQsujgPs04aSmZy+fEpt6zhLKj9IwWiXtlTbPZS0wkuJmcnc/vf725/SfgxU7KqNLFHtxgZCPUYtiXVJSbDnrBqyygYByutu0m43sIt6uYbyTfNMCO1i9i8DH7KrYTofJ2Qz0TPkykoqtJ8SlcGTgIN93SjyqpYDpNTmnudU1/bqew4jDFs76hOqqTohcM3pLBSTwABWZs5VsCfPkNttyHHEtgKOEP5oXhUCW1HKPIzcLNMs4JhPMsCdLsiDfRfnXNyqEMukC9Tpowkot5jocyEvLU0pjiyODPx5Y0nV+4wpvldZ0eIHnB5UUt2kS4mJiGX1V2qZhu8Q0+kYPEd82DM8qFXcdYit2WdHEWYp8vxIXiRrZDtqrEp+BN8rlsJOO4k0R5iQojWROMjoNNPNE0CwFreKI9l6WuBZrOny1qdltqZ34IoD8GMEX/q7OqBbsYIGEBU/gxgfYn4u8H7MwiLhf9SO1p0a5VqzQfsn4+/WEVkiCEG8HsLninUywYDjXKOKrs9mfTUx3iLvYANezwfDc3nDoesgipH/Rx5ZZsb8CXCPiT2F7r8gtbtJrmwU2KiduEtwe5ncEwJoR7g3weAvM5NpogOnc57C6pznmDkANHabMrOZ4M0Z9nM8dXO61KHFR4Kcq+dsMv4pOBkOvZ/b7Xh8eMlDwpItdZHatHhr2L+xBr1LwNXjboMsGYt7keSNWIgHSYgbf06mP9VI/p2oFljL9r82+XZrDPTb5BqVBSp1SHYuWeEoQancB/+2mWKdNMDTA5I17qna9Cwp1sNp5YbiBnNfuCxD6dxjfCK3umS2svOebqqKHeDOtM72pcHfQGxK72WPIsMljCojt4D/89WLHEolbi63pnrGr4uPGwmm9GByg4Yp4yjeGLVeaU5FinpwU63yk2Edfo/IKbX1IHgL2E/Ww5GJxTCNTMbETkLJ7XwUaTGgQRKNEy/67iH3NXWlyjoFSBvdlCKip6MfadrmN1KGsFfy2QNIbeK2dwbCW3aDetVNVTv0tnsDY76Nez265EQ+rT+AmmK9k8eH71t5lETdV2dbmtd++1T0b21dJs5s62bExnTTr5u50XNaN/em1rI/vPNse8A0oPmhPefwfqe27PVkfAAA=</trigger_inputs>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACutixlbet40UD7CaF7W1RBIFASaRNLE25IqXEXeTfO9TFknVxfMsmeQlgkuKcOTxzhsz9D50hDzP9Sp8hj2H9Qqdc4ogjNluvMAxLNexytFRzS8QDJMNorV/JKMYXehgFONKvzAs9QSzG07W4CeAjWJp+kX+u59Pw+8k1+45tDk1XLFD03TVcGSHKKZ/DooCKFUPrv/K1s3LGX1AWRJjrV/cPF/oKRbC7VJF/1KaoCu8THzkWNnzbtC3LMKxhz/Qubc+0Ahthw4AN61nX4MqW5Mtc8ZPEPMAQiiAmcAsvEUbBHWfrzYoF0JoRs0RPgv4Huw8NtY5gwO7jbG7z082pyIb9RUh9fLeSNOTZSIYzmwxZvOS3GX5FIiYoZrIgEUZiAfvhlYKsQOSIyHQRPk6KgJ8pT7PLJ1noI7b5haSMqBdLLBThhDKg3s24EWEcpegn49Hd5Nr9+9Ns9Md44k7G09nkZjQbX+vPaV7uv7HaMUOYY3GzdJ43J/+ZYqYOMGdc+BFdyU++pAnOwTxflIodhTygKScN1frFlNhWbZ5QcZSG0Slcv7J5IV6BkRQ309u72fjrn7N/Dtbl5SVCAUYduvRIRZfV3FoQyZY0q0ntUmg+so9Ee4bxRiLNyuhojS7DALPrcjsdJudzUC3lq1gqth4Rl8KVoYuCwK3wqJYCppdEm+XWVO7Lqo1iDlu4mxNqajclcsPoFyoggXuou4KtdEuYJ1/yLScx10I4Svij+XEEZEmtcDJys0TznGMyxQz7siIL8k1Uf32lQijDLVFvgqasNGJuwoG8tCKlLLY4MfjDkYXb5Dep8VZrMweXsWkS4mFiGQNVxKZhe8Q0BkYfkcA2DN+qlHETTCdKWTv9Vynnw4pZpLpje6isTnEO3qgKfy/FJNtyK0hQasg9Y3QeaOaZoFkKWs377IPMbyPLbPh6W527UjtzY0dBguCLYF8PVAv2MDvCwkfw3SOMzkP+93kUxjyoO4/aU6NcK1dov+T8/XpG0yNhhHcD2F7xRnZXMlxoFPH1GYzOJqbn4B42wN9ssDav7ziejyxCBpcDbJk1oythtGL7EAb3grCSNmV2mV2rRpI2aR1gcycAbFjewQBPN7tcmK1Wl819DFN7XGDuAtTIZcq2Gt42ZzTAxdzRhd2IkpSlfGpxk6Hj983BwB/AQwSKm/Swh8ye1UfO4NIe9mvF3YCyC6ZsIeGnPE/EWqRAOgr/Wzb1vt7Tr6lQgaXM/oNyaO/lcDtNv0FZkEr/U8eipf4RRtptyH+7KddpUwxtLX2jnqsJ74NCHaz2ujC8UC4atwAI/TuMb4VWt8cOVt7yTVTTQ7Kd1slvItwb9h1it7sJcdrcpATTDfPdXxr2LIaks6zabg/7ajtpLZHOdn+EWmsyqd4DdlxUzkWKeXZSrNcjxT75clTUYudD8BiwH6hbpVeIU1qWiondkFR9+jrUYEKDIBolWv5/QHjXe2tNLjBQyuAWDAE1Ff1Ug642jCaUjYJ/LpDsXt1oXDCs5XelN+1JtVM/7xMWBwPU79sdt1yn/oRtA/QC3nffoQ4ugKStnna2qcP2re/Z2qgq6txWxJ4t6KxZt/eh07Ju7UQvZX16j9n1AG9B8U67x8P/XJehIbkeAAA=</trigger_inputs>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance_v2>
@@ -302,7 +302,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Training Fill">28d48f038353d210042298a6feaad31b</flow>
+        <flow display_value="Fill Available Seats">28d48f038353d210042298a6feaad31b</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -310,12 +310,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:07:48</sys_created_on>
         <sys_id>7f8547838353d210042298a6feaad3de</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:13:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 16:09:19</sys_updated_on>
         <ui_id>c365d83d-b592-48a6-83dd-30d64335b394</ui_id>
-        <values>H4sIAAAAAAAA/+VVy27iMBT9FeR1FCUEELAbgZBG6rRSW7HpVNZNbMAa5zG2Q2EQ/z43jhMiivoYdYMmO99Xzjm5J346EMHIlAw4C8JJOEqiMIr6QdAfD8J4FMVhn0XAeUg8kkHKsVLxJFcMz1uQZRU4HGaKg+GMhn5SKsUzczxingldSNgvXRlGko2QDPNk+vTskQIUTjRckenhLPVRSBJiLrH0vsF0jtHsi+rM8qRMERcVTfDGdc5dpvd9jhlsquCEgUf4zvCMcQSyAqm5R1LIGJhc7cnUqBIDSJrdZXLfVmxEZmqiKey0+INvHgRV3Yojs8SJ0B6pE6gOr+Zg4AEnJ6ZUrV65SLiuNWF8BaU0s26sLrgrjMizusVALJvuXJZpdlsrQtoBne9RagTBi4pnhbymtXrY5C/3DciFyKwkjqLME5DtCYxRIi5NBedAuORW4xSKQmRrWqh8K2wzQkn9tcSDv5L5C75Ti3XmQ1Lh9lFV8BcYn9vwEpSoSPzAMdh89Ije65kErU9UUEP6u6yQ1MQcBWpVsBJQuwlVc6JEYb7hq7bcAT96bunj4VsblkxOC9WZeVr8HQ2Hkygch1RvQP2iATUKRIbcX2//4ynzORd8AGPjgkf77S9jdkZ4Fbvp9vZu64SzwfDLbDC+Jhs4Glfvg/e2P+i/+X/tbJJdeN3ZfNiCkHaVNP759c8yCCJ24R7wbfrSbfAPEz7nmw+wa3yzEFwyfYFuYxqeInTDaU3/zDgu2Vu6ZHuHfJl7wlFgnyvy0H9zlTz/BeUXvDRBCQAA</values>
+        <values>H4sIAAAAAAAA/+1UUW/aMBD+K1WeoygmgIC3aQhpD2ulrupLV1lOfIA1x8lsh8IQ/31nxwHasQ4hpGnS/Oa783ffd/50T9tI8GgS9YGnZEyGRUayrJemvVGf5MMsJz2eMQASxZFiJWClhqLSHO8rJhsX2G4/amAWOCVJ0WgNyu52mOfC1JJtHkMZRoqlkBzz0eTpOY5qphHRgo4m2zcpu6mBSpaDxIfTqmhKBL35NEWMc9l2r+87um/pux545wGdChfElOND0jiCtQXFAdvNmTQQRyVTnNlKb6KJ1Q0GUDW/U3Kzr1gKZVulJVsb8QPx+6mrmwNKK8IU9lcaJtQNpxIF3NVWVKqNWJbLbnKVbEp120pws4U5a6Q9mm1jEA9qR9mRaBnOvyyrl/uu30wory6wlVXB5P7GrNUibywY9x0gwQ+lZHUt1ILWuloJ/xiplMlC4iWZy+oFexqxUAkrHO8EB8SSGcanPvzItHAiPiMMPt558fR74/q2MgJh6jV7wdR/FJaaQovafkDgFQSauzjYNR+8Z4BifPjvI8yDZdeUDMYZGRFqlkx/oym1mgmFSn/17cMhc5l/HxyDm9uWwbnsXz3+jZrg4FexYODB1Qw8+ksGDoz+MQf/ybdp793FdfTT3qrmyLNsxYT0X21w25qvTZpm/MTuTXz61Aa+AOFCx0OJfS3ctJ3js7V3ADMBkpsTw+gsHxrQVWiw39tX8z0Zpv78X99XXN/PPwGbSR6QbwgAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=28d48f038353d210042298a6feaad31b"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=28d48f038353d210042298a6feaad31b"/>
@@ -390,7 +390,7 @@
         <name>Training Fill</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Training Fill">28d48f038353d210042298a6feaad31b</parent_flow>
+        <parent_flow display_value="Fill Available Seats">28d48f038353d210042298a6feaad31b</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>

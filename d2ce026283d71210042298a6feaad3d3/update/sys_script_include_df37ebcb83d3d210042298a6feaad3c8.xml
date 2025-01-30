@@ -54,11 +54,8 @@ SharkLearningUtils.prototype = {
 			var reachedLimitDate = false;
 			var today = new GlideDate();
 
-			var gdt = new GlideDateTime(grTraining.date.toString());
-			gdt.addDays(-1);
-
 			var glideTrainingDate = new GlideDate();
-			glideTrainingDate.setValue(gdt.getLocalDate());
+			glideTrainingDate.setValue(grTraining.date);
 
 			if(today.compareTo(glideTrainingDate) > 0){
 				reachedLimitDate = true;
@@ -84,14 +81,14 @@ SharkLearningUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 14:48:25</sys_created_on>
         <sys_id>df37ebcb83d3d210042298a6feaad3c8</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>SharkLearningUtils</sys_name>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name>sys_script_include_df37ebcb83d3d210042298a6feaad3c8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 20:08:30</sys_updated_on>
+        <sys_updated_on>2025-01-29 20:58:09</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>df37ebcb83d3d210042298a6feaad3c8</id>
