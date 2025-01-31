@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=116497000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=177490000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>count_available_seats</internal_name>
-        <label_cache>[{"name":"subflow.training","label":"Input➛Training","reference":"x_1593181_shark_0_training","reference_display":"Training","type":"reference","base_type":"reference","column_name":"","usedInstances":{"73de214e-3c4a-4334-9d4c-0c3fc293f9e7":["conditions"],"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e":["conditions"],"71734049-565e-4002-8ffb-61b97859bd6e":["record"],"fed2c4cb-3397-419a-87dc-d9559c43fef6":["record"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"764a47d7-f4c3-40f8-8db7-d825b1e8f313","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e.Records","label":"2 - Look Up Records➛Enrollment Records","reference":"x_1593181_shark_0_enrollment","reference_display":"Enrollment","type":"records","base_type":"records","usedInstances":{"a24f2003-a64d-447e-9968-ba3aa882289c":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.training.seats","label":"Input➛Training➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["available_seats"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.training.seats","label":"Input➛Training➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["available_seats"]}},{"name":"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e.Records","label":"3 - Look Up Records➛Enrollment Records","reference":"x_1593181_shark_0_enrollment","reference_display":"Enrollment","type":"records","base_type":"records","usedInstances":{"a24f2003-a64d-447e-9968-ba3aa882289c":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.training_sysid","label":"Input➛Training SysID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"73de214e-3c4a-4334-9d4c-0c3fc293f9e7":["conditions"],"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e":["conditions"],"71734049-565e-4002-8ffb-61b97859bd6e":["record"],"fed2c4cb-3397-419a-87dc-d9559c43fef6":["record"],"06cac5a7-9997-45c9-9d27-a8b545e2a9ff":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"764a47d7-f4c3-40f8-8db7-d825b1e8f313"}},{"name":"06cac5a7-9997-45c9-9d27-a8b545e2a9ff.Record","label":"1 - Look Up Record➛Training Record","reference":"x_1593181_shark_0_training","reference_display":"Training","type":"reference","base_type":"reference","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["record"],"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e":["conditions"],"71734049-565e-4002-8ffb-61b97859bd6e":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"06cac5a7-9997-45c9-9d27-a8b545e2a9ff.Record.seats","label":"1 - Look Up Record➛Training Record➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["available_seats"]}}]</label_cache>
         <master_snapshot>bc6f8f8f8353d210042298a6feaad3cc</master_snapshot>
         <master_snapshot_digest/>
         <name>Count Available Seats</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>996acfc78353d210042298a6feaad33a</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Count Available Seats</sys_name>
         <sys_overrides/>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name>sys_hub_flow_996acfc78353d210042298a6feaad33a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:50:35</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:10</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -64,12 +64,12 @@
         <sys_updated_on>2025-01-29 12:28:57</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=596acfc78353d210042298a6feaad33b"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=996acfc78353d210042298a6feaad33a^sys_idNOT INe06f8b8f8353d210042298a6feaad39f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=996acfc78353d210042298a6feaad33a^sys_idNOT IN1b9da1bf83d39610042298a6feaad3d0"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=764a47d7-f4c3-40f8-8db7-d825b1e8f313</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=764a47d7-f4c3-40f8-8db7-d825b1e8f313</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -79,7 +79,7 @@
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table>x_1593181_shark_0_training</choice_table>
+        <choice_table/>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -93,7 +93,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>training</element>
+        <element>training_sysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -101,10 +101,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Training</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>Training SysID</label>
         <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <max_length>8000</max_length>
         <model display_value="Count Available Seats">996acfc78353d210042298a6feaad33a</model>
         <model_id>996acfc78353d210042298a6feaad33a</model_id>
         <model_table>sys_hub_flow</model_table>
@@ -114,7 +114,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1593181_shark_0_training">x_1593181_shark_0_training</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -126,16 +126,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 12:50:44</sys_created_on>
-        <sys_id>e06f8b8f8353d210042298a6feaad39f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-01-31 13:39:01</sys_created_on>
+        <sys_id>1b9da1bf83d39610042298a6feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:50:44</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:39:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -148,11 +148,33 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e06f8b8f8353d210042298a6feaad39f"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1b9da1bf83d39610042298a6feaad3d0"/>
     <sys_hub_flow_output action="delete_multiple" query="model=996acfc78353d210042298a6feaad33a"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=996acfc78353d210042298a6feaad33a"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=996acfc78353d210042298a6feaad33a"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=996acfc78353d210042298a6feaad33a^sys_idNOT IN306f8f8f8353d210042298a6feaad3ac,5261df438393d210042298a6feaad3a4,786f8f8f8353d210042298a6feaad3af"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=996acfc78353d210042298a6feaad33a^sys_idNOT IN067f617383179610042298a6feaad3cd,306f8f8f8353d210042298a6feaad3ac,5261df438393d210042298a6feaad3a4,786f8f8f8353d210042298a6feaad3af"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Count Available Seats">996acfc78353d210042298a6feaad33a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 13:47:07</sys_created_on>
+        <sys_id>067f617383179610042298a6feaad3cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-31 13:50:54</sys_updated_on>
+        <ui_id>06cac5a7-9997-45c9-9d27-a8b545e2a9ff</ui_id>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjleybMvObZHAQIFuAzTZXroFQYlUTJQmVZLKl+H/vkNRkgVbsS3UARL0yOGQfDPz3pDS97XPiH/pk3kwz+bzySwOgigKguk0SnGYJNE0TYIEj/2BL/CKgqfBCacwfMC8sOMnFE7mUTgLkV5i9RMFyCjMBBP34ESYzjl+/lb53m1n0iXjRFHhX37/MfBzrGB3Q5V/ud6ZOhUexwnl9owK3w5c85w3Q1TOOdvn9jLvi5uQilgowcCnT4YKQgFDhrmmA3+FBcFGqufGoigmN4JvDUsmDOzoW+cnzV7g3Flg/TIKUaXUzTVDVCXJmbNrbPCtUUVqClW5pkvJUqpdPgjNcMHNVdvmHG5yw6RwS1zYbrXkxUp8cenwmw3qmoCl0ACC5jZQi7wKI7tdysevNcoFE2VOqkkuU8ybETZGsaQwFs/ap5yuYCO0wnkOxUa5kg+sXAxYVsN7DoNhxuUjHKrZvRji1AIfQl7xcAH269L8DStmo/gHtoHFAIhxYAhyJdSyUGUqH1DKC11OKCy028vfDHz9rK841nobOaQc/SosbpeHKmLkkmaXpIrl5m/Y4oFWwW0GtUImByk431IulYIwi0K3ZAJoECP/FbCYrNe6SGwChrVUEEwzstnsS+bkdT0FdTyaWlBX7XC6QqyktWf73LVBJa3wbNIaB8FHEhcc/v601V8tLgVHJBOSgyQjWz5pqQxyuWxpZl8NvXl+AoSa5zeWmV7y/BqqiuYZo5x03SALO7Fzg4z+zBvkXZIcABHkqscEZ6J8DgDQt2L/5CD1knCHZyW9WveFtWGd7msAe0Z6L72VcAKcWgm3cLZ35/B0QKz7fUmZ3V5fGysBRGcTQDQ6jwDWTZhNIjtyXr8AbTVr/xfrj3f9gYKtBeGmS2C9zgz7njna7As46qXgNtnczPUrnDvzU/EVRQ7esgUsYWl1HnL6RY+M3FOzPb32ItI8Yv6za75iHKoLVYb3Bs/O8OCXT9J6drIMraByLIfXsaIpkEMjrCjKZCEIqt7FWyLZSmZMaVM57zearxT0IzwJwvTMknqlt9d497yIj8dRp/JT5tWBVKdpDwLxykC8JpB+YfdpWuMzPk7P3bQWmPGyGvDJk7fKSZWS6pXGdaSQBxhxYlc7EVR4VlC/3/a6JNDZ/o5g/RDfz+dvTSnFyXiEp3EUhkEQBiQOZnEczqZJNsXxONtqFCEtUuimsHMGVIHtUU2Nus7hfv+pmm2/PnMCqJqB11LY7+pRbDyLCsrr1aiO4676SSIlp1jsNJQ7QP7XorwRGrpO3l1T+RA/kwp2t5tpZ+rM9Vs9Gwr2r2C/CvrJUmxGg9EsJOnFLA7ji3FGphdzgicXeJ5M4ojQdJyd8yXw439Qo98tpBUAAA==</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
@@ -162,18 +184,18 @@
         <display_text/>
         <flow display_value="Count Available Seats">996acfc78353d210042298a6feaad33a</flow>
         <generation_source/>
-        <order>2</order>
+        <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:45</sys_created_on>
         <sys_id>306f8f8f8353d210042298a6feaad3ac</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:51:34</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:50:54</sys_updated_on>
         <ui_id>13bf67ea-9fcf-4a66-b9dd-701c2e3a487e</ui_id>
-        <values>H4sIAAAAAAAA/+VX207jMBD9lcrPUZWQtpS+rWCRkLhIgHhhWctJnNbCdbK20wtV/33HsZNGbWBbqUigffRc7DMz5zjO8wqxBI3QMO35Pgn6w1PfD0PfHwzCmARRFA7iyI96EfKQIFMKkZpEnMJyRnhh1gsc9M/CYBhgNSHyFfuYCplxPqVCQ1jCVM7J8slF/2z64gnjiaQCjZ5fPJQTCSdoKtFoteXaFyInEeUQ+ugwbkHWy7xe4tJnbdfNtM6tdWQyMVB8D9GFpiKhgCElXFEPTYlIiM7ksrZISpI7wTeGCYMKRwiZ4IVib3Du0DdxKYWqYmp99RK7NllzekE0edCyiHUhXWg8yVhMle1HQlNScH3etNmAu1yzTNgUW7bNzngxFbe2HajeoJoKWAoFIGhuCjXIXRnpwySb31coL5koe+KcPIsJr1dEa8miQhs8K0Q5NUPGU5LnTIxxLrMZK5MBy7Q75rDopjybw6GKjUWXxAZ4F/pKupdgvyjNT0QyU8UNbAPJAIhxYAi2I1RZIctWznDMC1U6JBHK7oXWHlJLdc6JUpvKoeX4T2Fw2z64irFtmkmJJcv1D9hiRl1xa28vlfT9DeXiTCTMoFANqQA4JqAbvwpIT1YrVUSmBd3Kvl7/VppoenV74oW72jk0/ZjyKmur5HXeLK6tYCe0Hdt12wZOaMHRhAZ1fCepweFfT2mHa8e24B8Cik8/JFl/wyeVSY1tLxsK2hXFwTzfA0LF8zvDzE60fA+Vo3nKKE/avieXxrH1PTn5P78nX5LkACjBdnpMcCbsJVvQz2K///EVe7bFs5JeG+6XNqLiXQ2Qjs46bwcrYQ84lRIe4OzOo8XTArG670vKbN/1ldEJIDyaAMKT4whgVZdZN7Kl59V70Eyzin8z8WQ7HijYSAjWbQI76Mzg0DNP1rsCDg9ScJNs1nPxDueO/HB8R5HeZ14BE0h152GrXzxnyZjqzelVVJLpOeGvbX7HOFwNqizvEx6hvQ9lOwg2EgWlYEkVDK/5Cg3gebR7hwSeNR92heyBpWrHDVl07mswrQjdNQJKp+NyNs175Kq2OpL3jvhg/LJf0mpYrRqsZvYt/t2OJ4SXv6lo1Ca1EAAA</values>
+        <values>H4sIAAAAAAAA/+VX207jMBD9lSrPpUp6b99WsEgrcZEA8bKLrInjtBauk7UdoFT99x3HSRq1gW21RQLto+din5k5x3F+rjweeVNvHPd9H4LBeOT7vZ7vD4c9CkEY9oY09MN+6LU9CQuGkQZCwXD5BCKz6xcSDCa9YBwQPQf1SHzCpEqEWDBpMCziOhWwvC+iv9d9dM5FpJj0pj8f2l4KCk8wTHnT1ZZrX4gCQiYw9K7AuAXZLNNqSXKfs13U01pXzpGoyELx2x57MUxGDDHEIDRrewuQEZhELSuLYhBdS7ExzDlWOPU8G/yi+SueO/ZtXMywKsqcr1qSok3OHJ+BgVujMmoyVYTSecIp064fEYshE+a0bnMB16nhiXQprmyXnYhsIa9cO7xqg3IqaMk0gmCpLdQiL8qIb+fJ802J8pzLvCeFUyQURLUCYxQPM2PxrDwmmB0yWUCacjkjqUqeeJ6MWBadmcBFJxbJMx6q+Ux2gFrgHewrdM7Rfpab70FxW8UlboPJCIgLZAhxI9RJpvJWPhEqMp07FEjt9vLWbU8v9akArTeVY8vJ78zidn0oKiauaTaFKp6ab7jFEyuKW7f3UsnA31COJjLiFoWuSQXBcYnd+JVherRa+UMKdACjk8lkMjrpD+jkZBJ1RycwDgf9AevCJI47N4wiFdfrXS3963bHlF9eeym/03rxTQ0phLhju2jaoBBicDQhYh1fSYp4+OdT4uHaci34i8Do6F2SDTZ80okyxPWyprBdkRzM8z0glDy/tsxshcu3UBU0jzkTUdP35tw6tr433f/ze/MpSY6AIuKmx6Xg0l26Gfso9vvvX7GTLZ7l9NpwP7eBprsagJZJWq8HK2EPOKUSbvHs1p3D0wCxvO9zymzf9aWxEEDvaALodY8jgFVVZtXIhp6X70U7zTL+1cbDdjxSsJYQrJsEdtCZwaFndte7Au4dpOA62Zzn7A3OHflh+YYi2x95BcwxtTiPOP2SZx7NmNmcXkZFiXkG8djkLxhHykHl5X3AI7X/rmyHwUaiqBSimMbh1V+pAT6Pdu+QoO3Mh10he2Ap23EJL62bCkwjwuIaQaWzWT6b+j3yo7IWJO8f8cH4ab+k5bAaNVjO7Ev82x1PCA9/AAcbwzPVEAAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -184,18 +206,18 @@
         <display_text/>
         <flow display_value="Count Available Seats">996acfc78353d210042298a6feaad33a</flow>
         <generation_source/>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:59:36</sys_created_on>
         <sys_id>5261df438393d210042298a6feaad3a4</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:51:34</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:50:54</sys_updated_on>
         <ui_id>fed2c4cb-3397-419a-87dc-d9559c43fef6</ui_id>
-        <values>H4sIAAAAAAAA/+VVTW/iMBD9K5XPKEoIIOC2KkJaqdtKbcWlW0WTeABrHSdrOxQW8d93kjgBAeqC1Atabp4vvzd5D79tmeBszHrI/WAUDJIwCMOu73eHvSAehHHQ5SEgBqzDFKRIlRqTTHM6r0AWZWC7NUU8l9mHZzUIJdRit6M0FyaXsJm5KookSyG5RsXGb+8dloOmgRY1G2+PUpcikhCjpNLnBtIxRLvJyzPPkiJFZSPRBB9c58Rl7r5PKENNJZzA7zBcW1QcCcgcpMEOS0FxsJnesLHVBQU0An9SctNWLIWyNdEU1kb8oZt7flk3R2KWuCW0x8gtqA7PJ2DhhSYnttDtvjKRoKl3wnEOhbT3h7G64Cm3IlN1i4VYNt2ZLFL1WG+EtQMOvkdhCATmJc8SeU1r/rLMPp4bkFOhqpU4ijJLQLYnsFaLuLAlnC1DidWOU8hz0kCU62wlqmaCknoLSQevlAndacRCeZCUuD3aKnhTik+q8Ay0KEn8oDHUvOswszH3EozZU6EdRr+LEklNzFGIqi1UK4gqJZTNiRa5/UZXrdAB33Wc5uP+ZwpLRntBHczc634dBf1RGAyDyCxB/4r8qNH/qfpf95nrXHABxsYFr9W3P4/ZGeEk9nDYe/dYJ5wN+l9mg+Et2cDRuHkf/Ev9fvfT/9cDJVWCNwfKhxUIWUnJIFjzs/D9kJ8+A16VPfcYXD/gOtdcwK1xzVSg5OYM2cYymBJyi1FN/sg2Lnk3c8n2Bfky7wQDv/rdkIP+m4fk/S+L+b8QPgkAAA==</values>
+        <values>H4sIAAAAAAAA/+VVwU7jMBD9FeRzGyVNU5reVlSVVmJBAsSFRdHEnlBrHSdrO4Vu1X9fx3HaqiAWJC7V9jYznvF7L/Pqhw3hjMzIGFkYpdGExlEcj8JwNB1H+STOoxGLATEiAyKhRHtSIa0Us/EKRNMmNptwQoEmcD5M0/R8OE5oOkzZ6HwI0zwZJziCtCiCG9e33dpOxnUtYH3vB9gMXXLBFEoye3gckBqUvcugIrPNUemjYAXkKOzRmx7tMXqzrtuYVbQpUZqM98lL3zn3lbPvc1uxTS2cKBwQfDEoGVogBQiNA1KCZGAqtSYzoxqbUAjsWor17sSSS9MRLeFF8z/25nHYnivQMqNehF2YeYG6dDEHA7d2MjWN2ulVcYq604RhAY0wF4e57sB1bXgluxYDuei7K9GU8qpThOwGHHyPRlsQWLc8W+QdreJ2WT3f9CAXXDpJPEVRURC7CIxRPG9MC2dDUKDTuIS65vIpq1W14q7ZQimDJ2GDoBDVs71T8ycZAG1xB1ZVCBY2P3fpe1C8JfHDjrHN2wHRa30hQOs9Fath9rtpkXTEPIXMqeAkyNwmtM1U8dp8s1et0APfDrwd8uS9DaPpfqEOZu4t8ZJFSRpH0yjTS1C/sjAzCri03F9v/92+8jkXfABj74I79+3fxuyN8Cp3edh7dtUVvA2SL7PB9JRs4GmcvA/+tf3h6N3/14NNcguvDzYfVsCFWyWNYPTPJgxj9qkXInCNb70TXzr7c177gCK91xYcBdNvSNQbDUtLymDWSXZkNl88u/fF3bvzZY6LJqH7nZDv/pvn5/EvvjFIUI8JAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -206,18 +228,18 @@
         <display_text/>
         <flow display_value="Count Available Seats">996acfc78353d210042298a6feaad33a</flow>
         <generation_source/>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>a24f2003-a64d-447e-9968-ba3aa882289c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:45</sys_created_on>
         <sys_id>786f8f8f8353d210042298a6feaad3af</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:51:34</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:50:54</sys_updated_on>
         <ui_id>71734049-565e-4002-8ffb-61b97859bd6e</ui_id>
-        <values>H4sIAAAAAAAA/+VWTU/jMBD9K5XPJUoaQFBOKyqklViQAHFhUTSJJ9Rax8naTqFb5b/vOHHSqqBukbhU25vny+9N3mvytGKCsyk7Rh5G59FpFkdxPAnDydlxlJ7GaTThMSBGbMwUFEiVGrNSczovQNYusFqZOs1l+RpYDUIJ9dI0lObCVBKWj76KItlcSK5RsenT85hVoGmgRc2mq63UvogkpCip9K6HtA3RLit35mVWF6hsIvrgte+c+czo+4wy1OTgROGY4ZtFxZGA5CANjlkBioMt9ZJNra4poBH4rZLLoWIulO2IFvBmxB+6+Th0dTkSs8wvYTgmfkFdOJ+BhXuanNlaD/sqRYam2wnHHGppLzdjXcFtZUWpuhYLqey7S1kX6qbbCBsGbDyP2hAIrBxPh7yjld/Py9e7HuSVUO1KPEVZZiCHE1irRVpbB2fFUGK74wKqijSQVLpciLaZoBTBi6RD4GRCdxrxogLIHO6AtgrBFcVnbfgRtHAkftAYam7GzCzNpQRj1lRoh8nv2iHpiHkKSbuFdgVJqwTXnGlR2W901QI98GbsNZ+e7FJYdr4W1MbMte7fkujkPI7OosTMQf9KwqTX/3v1P6wzn3PBHhh7Fzy0z/5jzN4I72LXm72jmy7hbXDyZTY4OyQbeBoH74N/qT+c7Px/3VBSK3izoXxYgJCtlAyCNT/rMIx5zo+665C/1/8eHZ/zxR7oe19cCZTcfECnNwUWBNVi0tHbMoZPjh59cnhHfJk7otOw/R2QR/6DV0VHsYs5zFsKdqFdDXQxPR01ynnSovafSIlQVW3N8KUUbI0dHY2iCwJqYIF82H/TNM9/AatD0QGpCQAA</values>
+        <values>H4sIAAAAAAAA/+VWwWrjMBD9laBzEuw4TuPsaWkoLHRbaEsv3SLGktyIyrJXktNmg/99ZUt2QlK6KfRS1hejGb3Re6N5cR62iFO0QFNGgzAJZyQKo2gSBJP5NExnURpOaASMhWiIJOTM7lSMFIra9RpE1QS222BGgMRwNkqS5Gw0jUkySujkbATzNJ7GbAJJlo1vWlxdWyTluhSwufcFbISsuKCKSbR4eByiEpQ9yzCFFtuD1KlkBaRM2K03HdtD9mZTNmtakCpn0mDeBS89cukzgx9Lm7Gghk4YDBF7NUxSZolkIDQbohwkBVOoDVoYVdmAYkCvpdj0O1ZcGic0h1fN/9iTp0GzL2NWGfFN6JfYN8iFsyUYuLWVialU36+CE6ZdTyjLoBLmfD/mNlyXhhfSQQykokMXosrllesI6gvs3UelLQlWNjob5k5WdrsqXm46khdcti3xEkVBQPQrMEbxtDINnS1igrU9zqEsuXzCpSrWvAVbKvn4SdjFOBPFiz1T8yc5BtLwHtuuwvjCxpdt+B4Ub0T8tGUsuB4ivdHnArTeSbE9xL+rhokT5iXgtgttC3A7CQ2YKF6a7/aoNfPE66G3Qxq/N2Ek2Q3UXs2dJV5xGCdROA+xXoF6xgE2Cri02o+n/26X+ZgLTuDYueCuvfu3OXsjHMUu97GDK5fwNog/zQbzr2QDL+PL++Bf0x9M3v193ZukduD13uTDGrhoR0kzMPpXFQQRzejIHcfo8fyfgPiYL05g3/nigjNB9RtyOlOw3FI1DDt5B8bwycG9T/bfiE9zRzgL2ucLeeQ/+FQ4iS7WcD6Y4Cb0HsAebG9HDjKKW9Y4xFgUxTOuSuz+noz966DwYDQIv1mqGtaM9jdQ1/XjX9w7DiXGCQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=996acfc78353d210042298a6feaad33a"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=996acfc78353d210042298a6feaad33a^sys_idNOT INfc6f8f8f8353d210042298a6feaad3ad"/>
@@ -232,17 +254,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:45</sys_created_on>
         <sys_id>fc6f8f8f8353d210042298a6feaad3ad</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:50:34</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:07</sys_updated_on>
         <ui_id>a24f2003-a64d-447e-9968-ba3aa882289c</ui_id>
         <values>H4sIAAAAAAAA/51Sy27jMAz8F50Tw4/AqXMrsCjQw7ZAW/SyKAxaohNhZUmV5KSu4X9fKnbSosc92RySwxmRIzN9sH3wL+bWe7nXbPfnbcWkjhj9j0xDh2zHZMDOsxU7gupjPI5Z0bTlFmFdtbxdb6As100lxHqbZjzHAjY3W0yekBsn/DRRq5DeKhhe/5+BH6QSDheRFhxpC+jYbvyRCoPFWkGDigYtDNQvBYVZJdoqSyte5GWRp2l+s8masmiyXBSAoqS6S+f9YvrHG0R2Ct2Vlz5RRZ6uGH4E1AJpUAvK44p1oAUE4wa2C64nwCGIR62Ga8VB6kB0LNZ+ePlJ3FmaxsIWyRHHOXkN6+UhZ5gfjOT4aIM0ekYCNGrp4Ub1nX6Y5ccVYAu9CpcVENJ74kMbNUcVi6T2+WBOT5eBd1Kf/S1JZTioawQhONn0AX1cAyrsiKjuwFqp97V15ijPzaSlS/aKgqRV5kRD47klwKPwhJ4IkjvCf53hV3AyuvhNNNQ8nd3X732cO/tYFNezaSrw3EkbbonuiIu46S3e68zk58MQyKWngS8Ru79ceUwMtGTJv0Mn4/5GqV/Y9A/aCcVYLwMAAA==</values>
         <workflow_reference/>
@@ -332,19 +354,19 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_996acfc78353d210042298a6feaad33a^sys_idNOT INe86f8b8f8353d210042298a6feaad3a3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_996acfc78353d210042298a6feaad33a^sys_idNOT IN139dedbf83d39610042298a6feaad32b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>training</element>
+        <element>training_sysid</element>
         <help/>
         <hint/>
-        <label>Training</label>
+        <label>Training SysID</label>
         <language>en</language>
         <name>var__m_sys_hub_flow_input_996acfc78353d210042298a6feaad33a</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 12:50:44</sys_created_on>
-        <sys_id>e86f8b8f8353d210042298a6feaad3a3</sys_id>
+        <sys_created_on>2025-01-31 13:39:01</sys_created_on>
+        <sys_id>139dedbf83d39610042298a6feaad32b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
@@ -352,7 +374,7 @@
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:50:44</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:39:01</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -373,7 +395,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>count_available_seats</internal_name>
-        <label_cache>[{"name":"subflow.training","label":"Input➛Training","reference":"x_1593181_shark_0_training","reference_display":"Training","type":"reference","base_type":"reference","column_name":"","usedInstances":{"73de214e-3c4a-4334-9d4c-0c3fc293f9e7":["conditions"],"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e":["conditions"],"71734049-565e-4002-8ffb-61b97859bd6e":["record"],"fed2c4cb-3397-419a-87dc-d9559c43fef6":["record"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"764a47d7-f4c3-40f8-8db7-d825b1e8f313","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e.Records","label":"2 - Look Up Records➛Enrollment Records","reference":"x_1593181_shark_0_enrollment","reference_display":"Enrollment","type":"records","base_type":"records","usedInstances":{"a24f2003-a64d-447e-9968-ba3aa882289c":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.training.seats","label":"Input➛Training➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["available_seats"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.training.seats","label":"Input➛Training➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["available_seats"]}},{"name":"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e.Records","label":"3 - Look Up Records➛Enrollment Records","reference":"x_1593181_shark_0_enrollment","reference_display":"Enrollment","type":"records","base_type":"records","usedInstances":{"a24f2003-a64d-447e-9968-ba3aa882289c":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.training_sysid","label":"Input➛Training SysID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"73de214e-3c4a-4334-9d4c-0c3fc293f9e7":["conditions"],"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e":["conditions"],"71734049-565e-4002-8ffb-61b97859bd6e":["record"],"fed2c4cb-3397-419a-87dc-d9559c43fef6":["record"],"06cac5a7-9997-45c9-9d27-a8b545e2a9ff":["conditions"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"764a47d7-f4c3-40f8-8db7-d825b1e8f313"}},{"name":"06cac5a7-9997-45c9-9d27-a8b545e2a9ff.Record","label":"1 - Look Up Record➛Training Record","reference":"x_1593181_shark_0_training","reference_display":"Training","type":"reference","base_type":"reference","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["record"],"13bf67ea-9fcf-4a66-b9dd-701c2e3a487e":["conditions"],"71734049-565e-4002-8ffb-61b97859bd6e":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"06cac5a7-9997-45c9-9d27-a8b545e2a9ff.Record.seats","label":"1 - Look Up Record➛Training Record➛Seats","reference":"","reference_display":"Seats","type":"integer","base_type":"integer","parent_table_name":"x_1593181_shark_0_training","column_name":"seats","usedInstances":{"fed2c4cb-3397-419a-87dc-d9559c43fef6":["available_seats"]}}]</label_cache>
         <master>true</master>
         <name>Count Available Seats</name>
         <natlang/>
@@ -390,7 +412,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bc6f8f8f8353d210042298a6feaad3cc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -398,7 +420,7 @@
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:50:35</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:09</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -418,12 +440,12 @@
         <sys_updated_on>2025-01-29 12:50:45</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bc6f8f8f8353d210042298a6feaad3cd"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT IN706f8f8f8353d210042298a6feaad3cf"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT IN527fa17383179610042298a6feaad310"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=764a47d7-f4c3-40f8-8db7-d825b1e8f313</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=764a47d7-f4c3-40f8-8db7-d825b1e8f313</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -433,7 +455,7 @@
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
-        <choice_table>x_1593181_shark_0_training</choice_table>
+        <choice_table/>
         <column_label/>
         <comments/>
         <create_roles/>
@@ -447,7 +469,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>training</element>
+        <element>training_sysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -455,10 +477,10 @@
         <function_field>false</function_field>
         <help/>
         <hint/>
-        <internal_type display_value="Reference">reference</internal_type>
-        <label>Training</label>
+        <internal_type display_value="String">string</internal_type>
+        <label>Training SysID</label>
         <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <max_length>8000</max_length>
         <model display_value="Count Available Seats">bc6f8f8f8353d210042298a6feaad3cc</model>
         <model_id>bc6f8f8f8353d210042298a6feaad3cc</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
@@ -468,7 +490,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1593181_shark_0_training">x_1593181_shark_0_training</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -480,16 +502,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 12:50:45</sys_created_on>
-        <sys_id>706f8f8f8353d210042298a6feaad3cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-01-31 13:47:08</sys_created_on>
+        <sys_id>527fa17383179610042298a6feaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:50:46</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -502,11 +524,11 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=706f8f8f8353d210042298a6feaad3cf"/>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=527fa17383179610042298a6feaad310"/>
     <sys_hub_flow_output action="delete_multiple" query="model=bc6f8f8f8353d210042298a6feaad3cc"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bc6f8f8f8353d210042298a6feaad3cc"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=bc6f8f8f8353d210042298a6feaad3cc"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT IN2e61df438393d210042298a6feaad3ea,816f8f8f8353d210042298a6feaad3fb,c16f8f8f8353d210042298a6feaad3fa"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT IN2e61df438393d210042298a6feaad3ea,816f8f8f8353d210042298a6feaad3fb,c16f8f8f8353d210042298a6feaad3fa,d27fa17383179610042298a6feaad330"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -516,18 +538,18 @@
         <display_text/>
         <flow display_value="Count Available Seats">bc6f8f8f8353d210042298a6feaad3cc</flow>
         <generation_source/>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:59:36</sys_created_on>
         <sys_id>2e61df438393d210042298a6feaad3ea</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:59:36</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:09</sys_updated_on>
         <ui_id>fed2c4cb-3397-419a-87dc-d9559c43fef6</ui_id>
-        <values>H4sIAAAAAAAA/+VVTW/iMBD9K5XPKEoIIOC2KkJaqdtKbcWlW0WTeABrHSdrOxQW8d93kjgBAeqC1Atabp4vvzd5D79tmeBszHrI/WAUDJIwCMOu73eHvSAehHHQ5SEgBqzDFKRIlRqTTHM6r0AWZWC7NUU8l9mHZzUIJdRit6M0FyaXsJm5KookSyG5RsXGb+8dloOmgRY1G2+PUpcikhCjpNLnBtIxRLvJyzPPkiJFZSPRBB9c58Rl7r5PKENNJZzA7zBcW1QcCcgcpMEOS0FxsJnesLHVBQU0An9SctNWLIWyNdEU1kb8oZt7flk3R2KWuCW0x8gtqA7PJ2DhhSYnttDtvjKRoKl3wnEOhbT3h7G64Cm3IlN1i4VYNt2ZLFL1WG+EtQMOvkdhCATmJc8SeU1r/rLMPp4bkFOhqpU4ijJLQLYnsFaLuLAlnC1DidWOU8hz0kCU62wlqmaCknoLSQevlAndacRCeZCUuD3aKnhTik+q8Ay0KEn8oDHUvOswszH3EozZU6EdRr+LEklNzFGIqi1UK4gqJZTNiRa5/UZXrdAB33Wc5uP+ZwpLRntBHczc634dBf1RGAyDyCxB/4r8qNH/qfpf95nrXHABxsYFr9W3P4/ZGeEk9nDYe/dYJ5wN+l9mg+Et2cDRuHkf/Ev9fvfT/9cDJVWCNwfKhxUIWUnJIFjzs/D9kJ8+A16VPfcYXD/gOtdcwK1xzVSg5OYM2cYymBJyi1FN/sg2Lnk3c8n2Bfky7wQDv/rdkIP+m4fk/S+L+b8QPgkAAA==</values>
+        <values>H4sIAAAAAAAA/+VVwU7jMBD9FeRzGyVNU5reVlSVVmJBAsSFRdHEnlBrHSdrO4Vu1X9fx3HaqiAWJC7V9jYznvF7L/Pqhw3hjMzIGFkYpdGExlEcj8JwNB1H+STOoxGLATEiAyKhRHtSIa0Us/EKRNMmNptwQoEmcD5M0/R8OE5oOkzZ6HwI0zwZJziCtCiCG9e33dpOxnUtYH3vB9gMXXLBFEoye3gckBqUvcugIrPNUemjYAXkKOzRmx7tMXqzrtuYVbQpUZqM98lL3zn3lbPvc1uxTS2cKBwQfDEoGVogBQiNA1KCZGAqtSYzoxqbUAjsWor17sSSS9MRLeFF8z/25nHYnivQMqNehF2YeYG6dDEHA7d2MjWN2ulVcYq604RhAY0wF4e57sB1bXgluxYDuei7K9GU8qpThOwGHHyPRlsQWLc8W+QdreJ2WT3f9CAXXDpJPEVRURC7CIxRPG9MC2dDUKDTuIS65vIpq1W14q7ZQimDJ2GDoBDVs71T8ycZAG1xB1ZVCBY2P3fpe1C8JfHDjrHN2wHRa30hQOs9Fath9rtpkXTEPIXMqeAkyNwmtM1U8dp8s1et0APfDrwd8uS9DaPpfqEOZu4t8ZJFSRpH0yjTS1C/sjAzCri03F9v/92+8jkXfABj74I79+3fxuyN8Cp3edh7dtUVvA2SL7PB9JRs4GmcvA/+tf3h6N3/14NNcguvDzYfVsCFWyWNYPTPJgxj9qkXInCNb70TXzr7c177gCK91xYcBdNvSNQbDUtLymDWSXZkNl88u/fF3bvzZY6LJqH7nZDv/pvn5/EvvjFIUI8JAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
@@ -538,18 +560,18 @@
         <display_text/>
         <flow display_value="Count Available Seats">bc6f8f8f8353d210042298a6feaad3cc</flow>
         <generation_source/>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id>a24f2003-a64d-447e-9968-ba3aa882289c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:46</sys_created_on>
         <sys_id>816f8f8f8353d210042298a6feaad3fb</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:50:35</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:09</sys_updated_on>
         <ui_id>71734049-565e-4002-8ffb-61b97859bd6e</ui_id>
-        <values>H4sIAAAAAAAA/+VWTU/jMBD9K5XPJUoaQFBOKyqklViQAHFhUTSJJ9Rax8naTqFb5b/vOHHSqqBukbhU25vny+9N3mvytGKCsyk7Rh5G59FpFkdxPAnDydlxlJ7GaTThMSBGbMwUFEiVGrNSczovQNYusFqZOs1l+RpYDUIJ9dI0lObCVBKWj76KItlcSK5RsenT85hVoGmgRc2mq63UvogkpCip9K6HtA3RLit35mVWF6hsIvrgte+c+czo+4wy1OTgROGY4ZtFxZGA5CANjlkBioMt9ZJNra4poBH4rZLLoWIulO2IFvBmxB+6+Th0dTkSs8wvYTgmfkFdOJ+BhXuanNlaD/sqRYam2wnHHGppLzdjXcFtZUWpuhYLqey7S1kX6qbbCBsGbDyP2hAIrBxPh7yjld/Py9e7HuSVUO1KPEVZZiCHE1irRVpbB2fFUGK74wKqijSQVLpciLaZoBTBi6RD4GRCdxrxogLIHO6AtgrBFcVnbfgRtHAkftAYam7GzCzNpQRj1lRoh8nv2iHpiHkKSbuFdgVJqwTXnGlR2W901QI98GbsNZ+e7FJYdr4W1MbMte7fkujkPI7OosTMQf9KwqTX/3v1P6wzn3PBHhh7Fzy0z/5jzN4I72LXm72jmy7hbXDyZTY4OyQbeBoH74N/qT+c7Px/3VBSK3izoXxYgJCtlAyCNT/rMIx5zo+665C/1/8eHZ/zxR7oe19cCZTcfECnNwUWBNVi0tHbMoZPjh59cnhHfJk7otOw/R2QR/6DV0VHsYs5zFsKdqFdDXQxPR01ynnSovafSIlQVW3N8KUUbI0dHY2iCwJqYIF82H/TNM9/AatD0QGpCQAA</values>
+        <values>H4sIAAAAAAAA/+VWwWrjMBD9laBzEuw4TuPsaWkoLHRbaEsv3SLGktyIyrJXktNmg/99ZUt2QlK6KfRS1hejGb3Re6N5cR62iFO0QFNGgzAJZyQKo2gSBJP5NExnURpOaASMhWiIJOTM7lSMFIra9RpE1QS222BGgMRwNkqS5Gw0jUkySujkbATzNJ7GbAJJlo1vWlxdWyTluhSwufcFbISsuKCKSbR4eByiEpQ9yzCFFtuD1KlkBaRM2K03HdtD9mZTNmtakCpn0mDeBS89cukzgx9Lm7Gghk4YDBF7NUxSZolkIDQbohwkBVOoDVoYVdmAYkCvpdj0O1ZcGic0h1fN/9iTp0GzL2NWGfFN6JfYN8iFsyUYuLWVialU36+CE6ZdTyjLoBLmfD/mNlyXhhfSQQykokMXosrllesI6gvs3UelLQlWNjob5k5WdrsqXm46khdcti3xEkVBQPQrMEbxtDINnS1igrU9zqEsuXzCpSrWvAVbKvn4SdjFOBPFiz1T8yc5BtLwHtuuwvjCxpdt+B4Ub0T8tGUsuB4ivdHnArTeSbE9xL+rhokT5iXgtgttC3A7CQ2YKF6a7/aoNfPE66G3Qxq/N2Ek2Q3UXs2dJV5xGCdROA+xXoF6xgE2Cri02o+n/26X+ZgLTuDYueCuvfu3OXsjHMUu97GDK5fwNog/zQbzr2QDL+PL++Bf0x9M3v193ZukduD13uTDGrhoR0kzMPpXFQQRzejIHcfo8fyfgPiYL05g3/nigjNB9RtyOlOw3FI1DDt5B8bwycG9T/bfiE9zRzgL2ucLeeQ/+FQ4iS7WcD6Y4Cb0HsAebG9HDjKKW9Y4xFgUxTOuSuz+noz966DwYDQIv1mqGtaM9jdQ1/XjX9w7DiXGCQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
@@ -560,18 +582,40 @@
         <display_text/>
         <flow display_value="Count Available Seats">bc6f8f8f8353d210042298a6feaad3cc</flow>
         <generation_source/>
-        <order>2</order>
+        <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:46</sys_created_on>
         <sys_id>c16f8f8f8353d210042298a6feaad3fa</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:59:37</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:09</sys_updated_on>
         <ui_id>13bf67ea-9fcf-4a66-b9dd-701c2e3a487e</ui_id>
-        <values>H4sIAAAAAAAA/+VX207jMBD9lcrPUZWQtpS+rWCRkLhIgHhhWctJnNbCdbK20wtV/33HsZNGbWBbqUigffRc7DMz5zjO8wqxBI3QMO35Pgn6w1PfD0PfHwzCmARRFA7iyI96EfKQIFMKkZpEnMJyRnhh1gsc9M/CYBhgNSHyFfuYCplxPqVCQ1jCVM7J8slF/2z64gnjiaQCjZ5fPJQTCSdoKtFoteXaFyInEeUQ+ugwbkHWy7xe4tJnbdfNtM6tdWQyMVB8D9GFpiKhgCElXFEPTYlIiM7ksrZISpI7wTeGCYMKRwiZ4IVib3Du0DdxKYWqYmp99RK7NllzekE0edCyiHUhXWg8yVhMle1HQlNScH3etNmAu1yzTNgUW7bNzngxFbe2HajeoJoKWAoFIGhuCjXIXRnpwySb31coL5koe+KcPIsJr1dEa8miQhs8K0Q5NUPGU5LnTIxxLrMZK5MBy7Q75rDopjybw6GKjUWXxAZ4F/pKupdgvyjNT0QyU8UNbAPJAIhxYAi2I1RZIctWznDMC1U6JBHK7oXWHlJLdc6JUpvKoeX4T2Fw2z64irFtmkmJJcv1D9hiRl1xa28vlfT9DeXiTCTMoFANqQA4JqAbvwpIT1YrVUSmBd3Kvl7/VppoenV74oW72jk0/ZjyKmur5HXeLK6tYCe0Hdt12wZOaMHRhAZ1fCepweFfT2mHa8e24B8Cik8/JFl/wyeVSY1tLxsK2hXFwTzfA0LF8zvDzE60fA+Vo3nKKE/avieXxrH1PTn5P78nX5LkACjBdnpMcCbsJVvQz2K///EVe7bFs5JeG+6XNqLiXQ2Qjs46bwcrYQ84lRIe4OzOo8XTArG670vKbN/1ldEJIDyaAMKT4whgVZdZN7Kl59V70Eyzin8z8WQ7HijYSAjWbQI76Mzg0DNP1rsCDg9ScJNs1nPxDueO/HB8R5HeZ14BE0h152GrXzxnyZjqzelVVJLpOeGvbX7HOFwNqizvEx6hvQ9lOwg2EgWlYEkVDK/5Cg3gebR7hwRdaz7sCtkDS9WOG7Lo3NdgWhG6awSUTsflbJr3yFVtdSTvHfHB+GW/pNWwWjVYzexb/LsdTwgvfwGKjc7qtRAAAA==</values>
+        <values>H4sIAAAAAAAA/+VX207jMBD9lSrPpUp6b99WsEgrcZEA8bKLrInjtBauk7UdoFT99x3HSRq1gW21RQLto+din5k5x3F+rjweeVNvHPd9H4LBeOT7vZ7vD4c9CkEY9oY09MN+6LU9CQuGkQZCwXD5BCKz6xcSDCa9YBwQPQf1SHzCpEqEWDBpMCziOhWwvC+iv9d9dM5FpJj0pj8f2l4KCk8wTHnT1ZZrX4gCQiYw9K7AuAXZLNNqSXKfs13U01pXzpGoyELx2x57MUxGDDHEIDRrewuQEZhELSuLYhBdS7ExzDlWOPU8G/yi+SueO/ZtXMywKsqcr1qSok3OHJ+BgVujMmoyVYTSecIp064fEYshE+a0bnMB16nhiXQprmyXnYhsIa9cO7xqg3IqaMk0gmCpLdQiL8qIb+fJ802J8pzLvCeFUyQURLUCYxQPM2PxrDwmmB0yWUCacjkjqUqeeJ6MWBadmcBFJxbJMx6q+Ux2gFrgHewrdM7Rfpab70FxW8UlboPJCIgLZAhxI9RJpvJWPhEqMp07FEjt9vLWbU8v9akArTeVY8vJ78zidn0oKiauaTaFKp6ab7jFEyuKW7f3UsnA31COJjLiFoWuSQXBcYnd+JVherRa+UMKdACjk8lkMjrpD+jkZBJ1RycwDgf9AevCJI47N4wiFdfrXS3963bHlF9eeym/03rxTQ0phLhju2jaoBBicDQhYh1fSYp4+OdT4uHaci34i8Do6F2SDTZ80okyxPWyprBdkRzM8z0glDy/tsxshcu3UBU0jzkTUdP35tw6tr433f/ze/MpSY6AIuKmx6Xg0l26Gfso9vvvX7GTLZ7l9NpwP7eBprsagJZJWq8HK2EPOKUSbvHs1p3D0wCxvO9zymzf9aWxEEDvaALodY8jgFVVZtXIhp6X70U7zTL+1cbDdjxSsJYQrJsEdtCZwaFndte7Au4dpOA62Zzn7A3OHflh+YYi2x95BcwxtTiPOP2SZx7NmNmcXkZFiXkG8djkLxhHykHl5X3AI7X/rmyHwUaiqBSimMbh1V+pAT6Pdu+QoOPMh10he2Ap23EJL62bCkwjwuIaQaWzWT6b+j3yo7IWJO8f8cH4ab+k5bAaNVjO7Ev82x1PCA9/ACT+2f/VEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Count Available Seats">bc6f8f8f8353d210042298a6feaad3cc</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 13:47:09</sys_created_on>
+        <sys_id>d27fa17383179610042298a6feaad330</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 13:47:09</sys_updated_on>
+        <ui_id>06cac5a7-9997-45c9-9d27-a8b545e2a9ff</ui_id>
+        <values>H4sIAAAAAAAA/+VYTW/bOBD9K4LOjleybMvObZHAQIFuAzTZXroFQYlUTJQmVZLKl+H/vkNRkgVbsS3UARL0yOGQfDPz3pDS97XPiH/pk3kwz+bzySwOgigKguk0SnGYJNE0TYIEj/2BL/CKgqfBCacwfMC8sOMnFE7mUTgLkV5i9RMFyCjMBBP34ESYzjl+/lb53m1n0iXjRFHhX37/MfBzrGB3Q5V/ud6ZOhUexwnl9owK3w5c85w3Q1TOOdvn9jLvi5uQilgowcCnT4YKQgFDhrmmA3+FBcFGqufGoigmN4JvDUsmDOzoW+cnzV7g3Flg/TIKUaXUzTVDVCXJmbNrbPCtUUVqClW5pkvJUqpdPgjNcMHNVdvmHG5yw6RwS1zYbrXkxUp8cenwmw3qmoCl0ACC5jZQi7wKI7tdysevNcoFE2VOqkkuU8ybETZGsaQwFs/ap5yuYCO0wnkOxUa5kg+sXAxYVsN7DoNhxuUjHKrZvRji1AIfQl7xcAH269L8DStmo/gHtoHFAIhxYAhyJdSyUGUqH1DKC11OKCy028vfDHz9rK841nobOaQc/SosbpeHKmLkkmaXpIrl5m/Y4oFWwW0GtUImByk431IulYIwi0K3ZAJoECP/FbCYrNe6SGwChrVUEEwzstnsS+bkdT0FdTyaWlBX7XC6QqyktWf73LVBJa3wbNIaB8FHEhcc/v601V8tLgVHJBOSgyQjWz5pqQxyuWxpZl8NvXl+AoSa5zeWmV7y/BqqiuYZo5x03SALO7Fzg4z+zBvkXZIcABHkqscEZ6J8DgDQt2L/5CD1knCHZyW9WveFtWGd7msAe0Z6L72VcAKcWgm3cLZ35/B0QKz7fUmZ3V5fGysBRGcTQDQ6jwDWTZhNIjtyXr8AbTVr/xfrj3f9gYKtBeGmS2C9zgz7njna7As46qXgNtnczPUrnDvzU/EVRQ7esgUsYWl1HnL6RY+M3FOzPb32ItI8Yv6za75iHKoLVYb3Bs/O8OCXT9J6drIMraByLIfXsaIpkEMjrCjKZCEIqt7FWyLZSmZMaVM57zearxT0IzwJwvTMknqlt9d497yIj8dRp/JT5tWBVKdpDwLxykC8JpB+YfdpWuMzPk7P3bQWmPGyGvDJk7fKSZWS6pXGdaSQBxhxYlc7EVR4VlC/3/a6JNDZ/o5g/RDfz+dvTSnFyXiEp3EUhkEQBiQOZnEczqZJNsXxONtqFCEtUuimsHMGVIHtUU2Nus7hfv+pmm2/PnMCqJqB11LY7+pRbDyLCsrr1aiO4676SSIlp1jsNJQ7QP7XorwRGrpO3l1T+RA/kwp2t5tpZ+rM9Vs9Gwr2r2C/CvrJUmxGg9EsJOnFLA7ji3FGphdzgicXeJ5M4ojQdJyd8yXw439Qo98tpBUAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bc6f8f8f8353d210042298a6feaad3cc"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT IN8d6f8f8f8353d210042298a6feaad3f8"/>
@@ -586,17 +630,17 @@
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:46</sys_created_on>
         <sys_id>8d6f8f8f8353d210042298a6feaad3f8</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:50:35</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:09</sys_updated_on>
         <ui_id>a24f2003-a64d-447e-9968-ba3aa882289c</ui_id>
         <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI+IlLxVrSpVurtKadWXUxUt9pJYZ2zONkk5xH+/dSC06mOfYMe7szODGZjpfNt592JunZMHzba/3yImdcDofWAaGmRbJj02jkXsBKoL9TCkeVUXG4RVWfN6tYaiWFWlEKtNkvIMc1jfbDDeITdWuHGkUSFdq6B//T4DP0olLM4iW7CkzaNl2+HLkRS0IC1FXaZJyfOsyLMkyW7WaVXkVZqJHFAURKigQkWtj7O7L2Z934bSThJm4Mc8s1tQegQRWRIxfPeoBdL6GpTDiDWgBXhje7b1tiPAIognrfql4yi1JzoWet+d/Ecb0yQJjTWSIY7T4VLu5xwnuL4HD89EzX1n51Z+NJKjm6IQWEOn/N1nbGp4ar00ehrxUKnrtFFdo39NSbCF4PrZCOkcicA2GA3SZx/189Gcd1eVD1JfQpkPleGglgq8t7LqfNAzMFTYENG+gbaV+rBvrTnJyzBpaeKDoiKulTnT0nBFY+BBeEy5QvxA+P0FfgUrg4ufREPDY8Rc7+4UOPfhhULc/+2CksnZ7GE/xRBGuJWtv6UFJ5zljm/h1k/cS6ZcOpLwErDH678SDnq6QZJ/hs7G/gniP7DxP67jwIZ1AwAA</values>
         <workflow_reference/>
@@ -686,19 +730,19 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_variable>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT IN096f8f8f8353d210042298a6feaad3db"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_bc6f8f8f8353d210042298a6feaad3cc^sys_idNOT INde7fa17383179610042298a6feaad31a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
-        <element>training</element>
+        <element>training_sysid</element>
         <help/>
         <hint/>
-        <label>Training</label>
+        <label>Training SysID</label>
         <language>en</language>
         <name>var__m_sys_hub_flow_input_bc6f8f8f8353d210042298a6feaad3cc</name>
         <plural/>
         <sys_class_name>sys_documentation</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-29 12:50:46</sys_created_on>
-        <sys_id>096f8f8f8353d210042298a6feaad3db</sys_id>
+        <sys_created_on>2025-01-31 13:47:08</sys_created_on>
+        <sys_id>de7fa17383179610042298a6feaad31a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
@@ -706,7 +750,7 @@
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-29 12:50:46</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:08</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
@@ -723,16 +767,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"856fcf8f8353d210042298a6feaad307","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Count Available Seats">996acfc78353d210042298a6feaad33a</plan_id>
-        <snapshot>bd0742af83935610042298a6feaad36d</snapshot>
+        <snapshot>695075b383179610042298a6feaad3ff</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-29 12:50:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>856fcf8f8353d210042298a6feaad307</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 20:50:35</sys_updated_on>
+        <sys_updated_on>2025-01-31 13:47:10</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
