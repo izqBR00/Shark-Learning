@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=7065000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>send_deletion_email</internal_name>
+        <label_cache>[{"name":"subflow.enrollment_sysid","label":"Input➛Enrollment SysID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"858f5910-cdbf-498c-b232-3f9ba696cbf2":["conditions"],"fcc1c952-f47d-46df-986f-659fc47e6781":["id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"74dd008f-ce41-4819-b00c-ab96c7ea901c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.user_email","label":"Input➛User email","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ef6e3970-6ea9-4e4e-af9d-61522621dfa5":["ah_to"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e8ac6215-554a-4511-8102-22e85cab6b5f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ef6e3970-6ea9-4e4e-af9d-61522621dfa5":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e399604f-4f62-4243-9c9c-dbb310c34ba2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.training_name","label":"Input➛Training Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ef6e3970-6ea9-4e4e-af9d-61522621dfa5":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"439bea0e-379b-4bae-b798-00ca51612f59","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master_snapshot>f0713ab3835b9610042298a6feaad36a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Send Deletion Email</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:33:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6011fa73835b9610042298a6feaad375</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Send Deletion Email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>sys_hub_flow_6011fa73835b9610042298a6feaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:31</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=6011fa73835b9610042298a6feaad375"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=6011fa73835b9610042298a6feaad375"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=6011fa73835b9610042298a6feaad375^sys_idNOT IN3011fa73835b9610042298a6feaad376"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>6011fa73835b9610042298a6feaad375</id>
+        <name>Send Deletion Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:33:45</sys_created_on>
+        <sys_id>3011fa73835b9610042298a6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:33:45</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3011fa73835b9610042298a6feaad376"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=6011fa73835b9610042298a6feaad375^sys_idNOT INa7f1c3f7839b9610042298a6feaad3e4,abf1c3f7839b9610042298a6feaad3e7,e3f1c3f7839b9610042298a6feaad3e0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e399604f-4f62-4243-9c9c-dbb310c34ba2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>first_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>First Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Deletion Email">6011fa73835b9610042298a6feaad375</model>
+        <model_id>6011fa73835b9610042298a6feaad375</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:40</sys_created_on>
+        <sys_id>a7f1c3f7839b9610042298a6feaad3e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a7f1c3f7839b9610042298a6feaad3e4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=439bea0e-379b-4bae-b798-00ca51612f59</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>training_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Training Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Deletion Email">6011fa73835b9610042298a6feaad375</model>
+        <model_id>6011fa73835b9610042298a6feaad375</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:40</sys_created_on>
+        <sys_id>abf1c3f7839b9610042298a6feaad3e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=abf1c3f7839b9610042298a6feaad3e7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e8ac6215-554a-4511-8102-22e85cab6b5f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User email</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Deletion Email">6011fa73835b9610042298a6feaad375</model>
+        <model_id>6011fa73835b9610042298a6feaad375</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:40</sys_created_on>
+        <sys_id>e3f1c3f7839b9610042298a6feaad3e0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e3f1c3f7839b9610042298a6feaad3e0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=6011fa73835b9610042298a6feaad375^sys_idNOT INb7f107f7839b9610042298a6feaad317"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send Deletion Email">6011fa73835b9610042298a6feaad375</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:41</sys_created_on>
+        <sys_id>b7f107f7839b9610042298a6feaad317</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>sl_administrator</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:38:28</sys_updated_on>
+        <ui_id>ef6e3970-6ea9-4e4e-af9d-61522621dfa5</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6011fa73835b9610042298a6feaad375^sys_idNOT IN25520ff7839b9610042298a6feaad324,2d520ff7839b9610042298a6feaad323"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6011fa73835b9610042298a6feaad375</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.training_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:49:10</sys_created_on>
+        <sys_id>25520ff7839b9610042298a6feaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:49:10</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>be90b72c-d92b-4d50-aefd-ffdf5f4425ae</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>6011fa73835b9610042298a6feaad375</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:49:10</sys_created_on>
+        <sys_id>2d520ff7839b9610042298a6feaad323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:49:10</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e65158e3-7812-4e12-b651-4e0b42691115</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=6011fa73835b9610042298a6feaad375"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375^sys_idNOT INa7f1c3f7839b9610042298a6feaad3e3,abf1c3f7839b9610042298a6feaad3e6,aff1c3f7839b9610042298a6feaad3e9"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_email</element>
+        <help/>
+        <hint/>
+        <label>User email</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:40</sys_created_on>
+        <sys_id>a7f1c3f7839b9610042298a6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:47:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>first_name</element>
+        <help/>
+        <hint/>
+        <label>First Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:40</sys_created_on>
+        <sys_id>abf1c3f7839b9610042298a6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:47:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>training_name</element>
+        <help/>
+        <hint/>
+        <label>Training Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:40</sys_created_on>
+        <sys_id>aff1c3f7839b9610042298a6feaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:47:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6011fa73835b9610042298a6feaad375"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6011fa73835b9610042298a6feaad375"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6011fa73835b9610042298a6feaad375"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>send_deletion_email</internal_name>
+        <label_cache>[{"name":"subflow.enrollment_sysid","label":"Input➛Enrollment SysID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"858f5910-cdbf-498c-b232-3f9ba696cbf2":["conditions"],"fcc1c952-f47d-46df-986f-659fc47e6781":["id"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"74dd008f-ce41-4819-b00c-ab96c7ea901c","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.user_email","label":"Input➛User email","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ef6e3970-6ea9-4e4e-af9d-61522621dfa5":["ah_to"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e8ac6215-554a-4511-8102-22e85cab6b5f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.first_name","label":"Input➛First Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ef6e3970-6ea9-4e4e-af9d-61522621dfa5":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"e399604f-4f62-4243-9c9c-dbb310c34ba2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.training_name","label":"Input➛Training Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"ef6e3970-6ea9-4e4e-af9d-61522621dfa5":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"439bea0e-379b-4bae-b798-00ca51612f59","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master>true</master>
+        <name>Send Deletion Email</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Send Deletion Email">6011fa73835b9610042298a6feaad375</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:35:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0713ab3835b9610042298a6feaad36a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:31</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f0713ab3835b9610042298a6feaad36a^sys_idNOT INf0713ab3835b9610042298a6feaad36b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f0713ab3835b9610042298a6feaad36a</id>
+        <name>Send Deletion Email</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:35:23</sys_created_on>
+        <sys_id>f0713ab3835b9610042298a6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:35:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f0713ab3835b9610042298a6feaad36b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f0713ab3835b9610042298a6feaad36a^sys_idNOT IN0b0247f7839b9610042298a6feaad382,0b0247f7839b9610042298a6feaad389,0f0247f7839b9610042298a6feaad375"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e399604f-4f62-4243-9c9c-dbb310c34ba2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>first_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>First Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Deletion Email">f0713ab3835b9610042298a6feaad36a</model>
+        <model_id>f0713ab3835b9610042298a6feaad36a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:54</sys_created_on>
+        <sys_id>0b0247f7839b9610042298a6feaad382</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0b0247f7839b9610042298a6feaad382"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=439bea0e-379b-4bae-b798-00ca51612f59</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>training_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Training Name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Deletion Email">f0713ab3835b9610042298a6feaad36a</model>
+        <model_id>f0713ab3835b9610042298a6feaad36a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:54</sys_created_on>
+        <sys_id>0b0247f7839b9610042298a6feaad389</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0b0247f7839b9610042298a6feaad389"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=e8ac6215-554a-4511-8102-22e85cab6b5f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_email</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User email</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Send Deletion Email">f0713ab3835b9610042298a6feaad36a</model>
+        <model_id>f0713ab3835b9610042298a6feaad36a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:54</sys_created_on>
+        <sys_id>0f0247f7839b9610042298a6feaad375</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0f0247f7839b9610042298a6feaad375"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=f0713ab3835b9610042298a6feaad36a^sys_idNOT INcf0247f7839b9610042298a6feaad3b8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Send Deletion Email">f0713ab3835b9610042298a6feaad36a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:55</sys_created_on>
+        <sys_id>cf0247f7839b9610042298a6feaad3b8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:49:11</sys_updated_on>
+        <ui_id>ef6e3970-6ea9-4e4e-af9d-61522621dfa5</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f0713ab3835b9610042298a6feaad36a^sys_idNOT IN7d520ff7839b9610042298a6feaad375,b9520ff7839b9610042298a6feaad375"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f0713ab3835b9610042298a6feaad36a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.first_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:49:11</sys_created_on>
+        <sys_id>7d520ff7839b9610042298a6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:49:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e65158e3-7812-4e12-b651-4e0b42691115</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>f0713ab3835b9610042298a6feaad36a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.training_name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:49:11</sys_created_on>
+        <sys_id>b9520ff7839b9610042298a6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:49:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>be90b72c-d92b-4d50-aefd-ffdf5f4425ae</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f0713ab3835b9610042298a6feaad36a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a^sys_idNOT IN8f0247f7839b9610042298a6feaad37f,8f0247f7839b9610042298a6feaad386,cf0247f7839b9610042298a6feaad38d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_email</element>
+        <help/>
+        <hint/>
+        <label>User email</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:54</sys_created_on>
+        <sys_id>8f0247f7839b9610042298a6feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:47:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>first_name</element>
+        <help/>
+        <hint/>
+        <label>First Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:54</sys_created_on>
+        <sys_id>8f0247f7839b9610042298a6feaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:47:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>training_name</element>
+        <help/>
+        <hint/>
+        <label>Training Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 19:47:54</sys_created_on>
+        <sys_id>cf0247f7839b9610042298a6feaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 19:47:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f0713ab3835b9610042298a6feaad36a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f0713ab3835b9610042298a6feaad36a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f0713ab3835b9610042298a6feaad36a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>6011fa73835b9610042298a6feaad375</sys_id>
+        <latest_snapshot>f0713ab3835b9610042298a6feaad36a</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4a-12-16-2024_01-07-2025_0947.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=6011fa73835b9610042298a6feaad375"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=6011fa73835b9610042298a6feaad375^sys_idNOT INb8713ab3835b9610042298a6feaad3c6"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"b8713ab3835b9610042298a6feaad3c6","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Send Deletion Email">6011fa73835b9610042298a6feaad375</plan_id>
+        <snapshot>279d03b783db9610042298a6feaad3db</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:35:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8713ab3835b9610042298a6feaad3c6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:31:31</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
