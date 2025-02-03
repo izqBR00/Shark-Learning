@@ -37,10 +37,10 @@
 			var email = "";
 			var first_name = "";
 
-			var openedBy_sysid = current.getValue("opened_by").toString();
+			var student_sysid = current.getValue("student").toString();
 
 			var grUser = new GlideRecord("sys_user");
-			if(grUser.get(openedBy_sysid)){
+			if(grUser.get(student_sysid)){
 				email = grUser.getValue("email").toString();
 				first_name = grUser.getValue("first_name").toString();
 			} else {
@@ -84,7 +84,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7b357af7835b9610042298a6feaad3d3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Send Enrollment Deletion Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
@@ -92,7 +92,7 @@
         <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
         <sys_update_name>sys_script_7b357af7835b9610042298a6feaad3d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-31 20:37:47</sys_updated_on>
+        <sys_updated_on>2025-02-03 12:54:16</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
