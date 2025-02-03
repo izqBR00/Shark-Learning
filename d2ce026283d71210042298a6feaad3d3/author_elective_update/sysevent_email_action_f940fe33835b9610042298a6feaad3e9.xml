@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="DELETE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1593181_shark_0_enrollment</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>triggered</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}!<br><br>We're sorry to inform you that your enrollment in the training: ${training.name} was cancelled by one of our Administrators.&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Enrollment Deleted by Admin</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>student</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Enrollment Deleted by Administrator</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:32:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f940fe33835b9610042298a6feaad3e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enrollment Deleted by Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_update_name>sysevent_email_action_f940fe33835b9610042298a6feaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:48:56</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</application>
+        <file_path/>
+        <instance_id>e1b50610dbda3d18f697684e13961947</instance_id>
+        <instance_name>dev199015</instance_name>
+        <name>sysevent_email_action_f940fe33835b9610042298a6feaad3e9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sysevent_email_action"&gt;
+    &lt;sysevent_email_action action="INSERT_OR_UPDATE"&gt;
+        &lt;action_insert&gt;false&lt;/action_insert&gt;
+        &lt;action_update&gt;false&lt;/action_update&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_condition/&gt;
+        &lt;affected_field_on_event/&gt;
+        &lt;category display_value="Uncategorized" name="Uncategorized"&gt;c97d83137f4432005f58108c3ffa917a&lt;/category&gt;
+        &lt;collection&gt;x_1593181_shark_0_enrollment&lt;/collection&gt;
+        &lt;condition/&gt;
+        &lt;content_type&gt;text/html&lt;/content_type&gt;
+        &lt;default_interval/&gt;
+        &lt;description/&gt;
+        &lt;digest_from/&gt;
+        &lt;digest_html/&gt;
+        &lt;digest_reply_to/&gt;
+        &lt;digest_separator_html&gt;&lt;![CDATA[&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/digest_separator_html&gt;
+        &lt;digest_separator_text&gt;&lt;![CDATA[\n--------------------------------------------------------------------------------\n]]&gt;&lt;/digest_separator_text&gt;
+        &lt;digest_subject/&gt;
+        &lt;digest_template/&gt;
+        &lt;digest_text/&gt;
+        &lt;digestable&gt;false&lt;/digestable&gt;
+        &lt;enable_dynamic_translation&gt;false&lt;/enable_dynamic_translation&gt;
+        &lt;event_name&gt;activate.life.cycle.migration&lt;/event_name&gt;
+        &lt;event_parm_1&gt;false&lt;/event_parm_1&gt;
+        &lt;event_parm_2&gt;false&lt;/event_parm_2&gt;
+        &lt;exclude_delegates&gt;false&lt;/exclude_delegates&gt;
+        &lt;force_delivery&gt;false&lt;/force_delivery&gt;
+        &lt;from/&gt;
+        &lt;generation_type&gt;triggered&lt;/generation_type&gt;
+        &lt;importance/&gt;
+        &lt;include_attachments&gt;false&lt;/include_attachments&gt;
+        &lt;item&gt;event.parm1&lt;/item&gt;
+        &lt;item_table/&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;message/&gt;
+        &lt;message_html&gt;&lt;![CDATA[&lt;p&gt;Hello ${opened_by.first_name}!&lt;br&gt;&lt;br&gt;We're sorry to inform you that your enrollment in the training: ${training.name} was cancelled by one of our Administrators.&amp;nbsp;&lt;/p&gt;]]&gt;&lt;/message_html&gt;
+        &lt;message_list/&gt;
+        &lt;message_text/&gt;
+        &lt;name&gt;Enrollment Deleted by Admin&lt;/name&gt;
+        &lt;omit_watermark&gt;false&lt;/omit_watermark&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;push_message_only&gt;false&lt;/push_message_only&gt;
+        &lt;recipient_fields&gt;student&lt;/recipient_fields&gt;
+        &lt;recipient_groups/&gt;
+        &lt;recipient_users/&gt;
+        &lt;reply_to/&gt;
+        &lt;send_self&gt;true&lt;/send_self&gt;
+        &lt;sms_alternate/&gt;
+        &lt;style/&gt;
+        &lt;subject&gt;Enrollment Deleted by Administrator&lt;/subject&gt;
+        &lt;subscribable&gt;false&lt;/subscribable&gt;
+        &lt;sys_class_name&gt;sysevent_email_action&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-01-31 18:32:14&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;f940fe33835b9610042298a6feaad3e9&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Enrollment Deleted by Admin&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Shark Learning" source="x_1593181_shark_0"&gt;d2ce026283d71210042298a6feaad3d3&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Shark Learning"&gt;d2ce026283d71210042298a6feaad3d3&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sysevent_email_action_f940fe33835b9610042298a6feaad3e9&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-01-31 18:48:56&lt;/sys_updated_on&gt;
+        &lt;sys_version&gt;2&lt;/sys_version&gt;
+        &lt;template display_value="Unsubscribe and Preferences"&gt;7ed0481f3b0b2200c869c2c703efc487&lt;/template&gt;
+        &lt;type&gt;email&lt;/type&gt;
+        &lt;weight&gt;0&lt;/weight&gt;
+    &lt;/sysevent_email_action&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-699293332</payload_hash>
+        <record_name>Enrollment Deleted by Admin</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 12:36:50</sys_created_on>
+        <sys_id>352c30f883eb9a10042298a6feaad300</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194cbd041540000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 12:36:50</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>f12c30f83eeb9a1039fbaa17da935000</update_guid>
+        <update_guid_history>150ab038e8eb9a10530616c3135ae846:-1131835138,a16974b40beb9a102639b3ca063b2395:-141107723,c7847ab76f5b96107b2d780a8b90d87e:-53785774,62b0b2739d5b961018ef26e65c5cd0ef:-1536766432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 12:38:05</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_action">sysevent_email_action</sys_db_object>
+        <sys_id>5f8836e8290e42bc996fbf6de25d8d90</sys_id>
+        <sys_metadata>f940fe33835b9610042298a6feaad3e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enrollment Deleted by Admin</sys_name>
+        <sys_package display_value="Shark Learning" source="x_1593181_shark_0">d2ce026283d71210042298a6feaad3d3</sys_package>
+        <sys_parent display_value="Enrollment">6ff296a683d71210042298a6feaad30c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Shark Learning">d2ce026283d71210042298a6feaad3d3</sys_scope>
+        <sys_scope_delete display_value="">0a2ce786428d4704a6838f220593d710</sys_scope_delete>
+        <sys_update_name>sysevent_email_action_f940fe33835b9610042298a6feaad3e9</sys_update_name>
+        <sys_update_version display_value="sysevent_email_action_f940fe33835b9610042298a6feaad3e9">352c30f883eb9a10042298a6feaad300</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 12:38:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
